@@ -42,11 +42,56 @@ def build() -> dict:
             "name": meta["name"],
             "season": season,
             "as_of": as_of.strftime("%Y-%m-%d"),
+            # The three league-wide numbers the browser needs to rebuild any
+            # scoreline matrix itself: lambda = exp(intercept + att + def + hadv).
+            "params": {
+                "intercept": model.intercept,
+                "home_adv": model.home_adv,
+                "rho": model.rho,
+                "max_goals": cfg.MAX_GOALS,
+            },
             "ratings": model.ratings_table().to_dict("records"),
             "fixtures": fixtures[:200],
             "season_projection": sim,
         }
+
+    # A ClubElo snapshot + calibration, so the web page can also cover clubs
+    # outside the collected leagues (the weaker Elo bridge). Wrapped in try/except
+    # because it needs a network fetch; if it fails the site still builds, it just
+    # can't do the Elo-bridge clubs until the next successful update.
+    payload["elo"] = _elo_snapshot(matches)
     return payload
+
+
+def _elo_snapshot(matches: pd.DataFrame) -> dict | None:
+    """Bake a ClubElo ratings snapshot and its goal calibration into the payload."""
+    try:
+        from .ucl import build_elo_lookup, calibrate_elo_to_goals, fetch_elo
+
+        date = pd.Timestamp.today().strftime("%Y-%m-%d")
+        elo = fetch_elo(date)
+        lookup = build_elo_lookup(
+            elo, sorted(set(matches["home"]) | set(matches["away"]))
+        )
+        cal = calibrate_elo_to_goals(matches, lookup, matches["season"].iloc[-1])
+        clubs = [
+            {"name": str(c), "elo": float(e)}
+            for c, e in zip(elo["Club"], elo["Elo"])
+        ]
+        return {
+            "snapshot_date": date,
+            "calibration": {
+                "intercept": cal["intercept"],
+                "slope_per_100_elo": cal["slope_per_100_elo"],
+                "home_adv": cal["home_adv"],
+                "rho": -0.05,  # matches ucl.elo_score_matrix default
+                "max_goals": cfg.MAX_GOALS,
+            },
+            "clubs": clubs,
+        }
+    except Exception as exc:  # network down, ClubElo change, etc. - non-fatal.
+        print(f"  (Elo snapshot skipped: {exc})")
+        return None
 
 
 def to_markdown(p: dict) -> str:
@@ -183,6 +228,11 @@ def to_html(p: dict) -> str:
         f'<p class="sub">UCL · Premier League · La Liga &nbsp;·&nbsp; '
         f'generated {p["generated"]} &nbsp;·&nbsp; data through '
         f'{p["data_through"]}</p></header>'
+    )
+    H.append(
+        '<div class="acc"><b>▶ <a href="match.html" style="color:var(--accent)">'
+        "Predict any fixture yourself</a></b> — type two team names, get the "
+        "ranked top picks and a Live Prep card. Works on your phone.</div>"
     )
     H.append(
         '<div class="acc"><b>Measured accuracy, out of sample over 8,360 '
