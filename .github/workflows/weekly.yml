@@ -1,0 +1,66 @@
+name: Weekly prediction refresh
+
+# Runs every Friday at 06:00 UTC, before the weekend fixtures.
+# Free on GitHub-hosted runners: unlimited minutes on public repositories,
+# and this job takes roughly three minutes.
+on:
+  schedule:
+    - cron: "0 6 * * 5"
+  workflow_dispatch: {}   # lets you trigger it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect fresh results
+        run: python -m src.collect
+
+      - name: Clean and validate
+        # Exits non-zero if any validation check fails, which stops the run
+        # before bad data can reach a published prediction.
+        run: python -m src.clean
+
+      - name: Verify the model still behaves
+        run: python -m tests.verify_model
+
+      - name: Simulate seasons
+        run: |
+          python -m src.simulate --comp E0 || true
+          python -m src.simulate --comp SP1 || true
+
+      - name: Simulate Champions League
+        run: python -m src.ucl --sims 2000 || true
+
+      - name: Build report
+        run: python -m src.report
+
+      - name: Commit predictions
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output docs
+          if git diff --staged --quiet; then
+            echo "No change in predictions."
+          else
+            git commit -m "Weekly refresh: $(date -u +%Y-%m-%d)"
+            git push
+          fi
