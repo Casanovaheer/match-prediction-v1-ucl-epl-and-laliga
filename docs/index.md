@@ -1,6 +1,6 @@
 # Match Predictions — UCL, Premier League and La Liga
 
-*Generated 2026-07-24 18:52 UTC · data through 2026-05-24*
+*Generated 2026-07-24 19:14 UTC · data through 2026-05-24*
 
 Every number below comes from a time-weighted Dixon-Coles model fitted only on matches played before the prediction date. Method and measured accuracy are in the [README](https://github.com/Casanovaheer/match-prediction-v1-ucl-epl-and-laliga).
 
