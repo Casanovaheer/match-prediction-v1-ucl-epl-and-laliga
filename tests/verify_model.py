@@ -12,6 +12,7 @@ is still broken, so both are tested.
 from __future__ import annotations
 
 import sys
+import time
 
 import numpy as np
 import pandas as pd
@@ -42,7 +43,7 @@ def main() -> int:
     print("\n-- fitting --")
     models = {}
     for comp in ("E0", "SP1"):
-        m = DixonColes.fit(matches, comp=comp, as_of=as_of)
+        m = DixonColes.fit(matches, comp=comp, as_of=as_of, measure_rho_gain=True)
         models[comp] = m
         print(
             f"  {comp}: {m.n_matches} matches, effective n={m.effective_n:.0f}, "
@@ -52,6 +53,45 @@ def main() -> int:
     print("\n-- 1. optimiser --")
     for comp, m in models.items():
         check(f"{comp} converged", m.converged)
+
+    print("\n-- 1b. analytic gradient matches finite differences --")
+    # The analytic jacobian is a ~10x speedup, but a wrong gradient does not
+    # crash - it converges quietly to the wrong parameters. So the fast path is
+    # checked against the slow one it replaced.
+    t0 = time.time()
+    fast = DixonColes.fit(matches, comp="E0", as_of=as_of, use_analytic_jac=True)
+    t_fast = time.time() - t0
+    t0 = time.time()
+    slow = DixonColes.fit(matches, comp="E0", as_of=as_of, use_analytic_jac=False)
+    t_slow = time.time() - t0
+
+    # Log-likelihood is the sharpest test of gradient correctness: a wrong
+    # gradient lands at a worse optimum, and it would show up here first.
+    check("log-likelihood identical",
+          abs(fast.log_likelihood - slow.log_likelihood) < 1e-3,
+          f"{fast.log_likelihood:.4f} vs {slow.log_likelihood:.4f}")
+    check("home advantage agrees", abs(fast.home_adv - slow.home_adv) < 1e-4,
+          f"{fast.home_adv:.5f} vs {slow.home_adv:.5f}")
+    check("rho agrees", abs(fast.rho - slow.rho) < 1e-4,
+          f"{fast.rho:.5f} vs {slow.rho:.5f}")
+
+    # Individual ratings can differ by ~1e-3 where the likelihood surface is
+    # flat (a club with few matches in the window). That is optimiser
+    # tolerance, not disagreement. What has to match is the output, so the
+    # tight assertion is on predicted probabilities rather than parameters.
+    pairs = [(fast.teams[i], fast.teams[j]) for i, j in ((0, 1), (2, 3), (4, 5))]
+    worst = 0.0
+    for hh, aa in pairs:
+        pf, ps = fast.predict(hh, aa), slow.predict(hh, aa)
+        worst = max(worst, max(abs(pf[k] - ps[k]) for k in ("p_home", "p_draw", "p_away")))
+    check("predicted probabilities agree to 1e-3", worst < 1e-3,
+          f"max 1X2 diff={worst:.2e}")
+
+    att_diff = max(abs(fast.attack[t] - slow.attack[t]) for t in fast.teams)
+    def_diff = max(abs(fast.defence[t] - slow.defence[t]) for t in fast.teams)
+    print(f"  [--]  raw parameter drift: attack {att_diff:.2e}, defence {def_diff:.2e}"
+          f"  (flat-surface tolerance, not error)")
+    print(f"  [--]  speedup: {t_slow:.2f}s -> {t_fast:.2f}s ({t_slow / t_fast:.1f}x)")
 
     print("\n-- 2. league parameters --")
     for comp, m in models.items():

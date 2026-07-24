@@ -87,6 +87,43 @@ class DixonColes:
         t[m] = 1.0 - rho
         return t
 
+    @staticmethod
+    def _tau_with_grads(hg, ag, lam, mu, rho):
+        """tau plus the partial derivatives the analytic gradient needs.
+
+        Returned as d(log tau)/d(log lambda) and d(log tau)/d(log mu), because
+        the model is parameterised in log space, plus d(tau)/d(rho).
+        """
+        tau = np.ones_like(lam)
+        dt_dloglam = np.zeros_like(lam)
+        dt_dlogmu = np.zeros_like(lam)
+        dt_drho = np.zeros_like(lam)
+
+        m00 = (hg == 0) & (ag == 0)
+        m01 = (hg == 0) & (ag == 1)
+        m10 = (hg == 1) & (ag == 0)
+        m11 = (hg == 1) & (ag == 1)
+
+        lm = lam[m00] * mu[m00]
+        tau[m00] = 1.0 - lm * rho
+        tau[m01] = 1.0 + lam[m01] * rho
+        tau[m10] = 1.0 + mu[m10] * rho
+        tau[m11] = 1.0 - rho
+        tau = np.clip(tau, 1e-12, None)
+
+        # d(tau)/d(log x) = x * d(tau)/dx
+        dt_dloglam[m00] = -lm * rho
+        dt_dloglam[m01] = lam[m01] * rho
+        dt_dlogmu[m00] = -lm * rho
+        dt_dlogmu[m10] = mu[m10] * rho
+
+        dt_drho[m00] = -lm
+        dt_drho[m01] = lam[m01]
+        dt_drho[m10] = mu[m10]
+        dt_drho[m11] = -1.0
+
+        return tau, dt_dloglam / tau, dt_dlogmu / tau, dt_drho
+
     @classmethod
     def fit(
         cls,
@@ -96,6 +133,9 @@ class DixonColes:
         half_life_days: int = cfg.HALF_LIFE_DAYS,
         lookback_days: int = cfg.LOOKBACK_DAYS,
         min_matches: int = 50,
+        measure_rho_gain: bool = False,
+        x0: np.ndarray | None = None,
+        use_analytic_jac: bool = True,
     ) -> "DixonColes":
         """Fit on every match in `comp` played strictly before `as_of`.
 
@@ -142,27 +182,53 @@ class DixonColes:
                 params[2 * n + 2],  # rho
             )
 
-        def neg_log_lik(params: np.ndarray, fixed_rho: float | None = None) -> float:
+        def objective(params: np.ndarray, fixed_rho: float | None = None):
+            """Negative weighted log-likelihood and its analytic gradient.
+
+            Supplying the gradient rather than letting L-BFGS-B estimate it by
+            finite differences is worth roughly an order of magnitude here:
+            a numerical gradient costs ~2n+3 extra likelihood evaluations per
+            step, and n is the number of clubs.
+            """
             att, dfc, icept, hadv, rho = unpack(params)
             if fixed_rho is not None:
                 rho = fixed_rho
 
-            lam = np.exp(icept + att[h] + dfc[a] + hadv)
-            mu = np.exp(icept + att[a] + dfc[h])
-            lam = np.clip(lam, 1e-9, 25.0)
-            mu = np.clip(mu, 1e-9, 25.0)
+            lam = np.clip(np.exp(icept + att[h] + dfc[a] + hadv), 1e-9, 25.0)
+            mu = np.clip(np.exp(icept + att[a] + dfc[h]), 1e-9, 25.0)
 
-            tau = np.clip(cls._tau(hg, ag, lam, mu, rho), 1e-12, None)
-
-            ll = w * (
-                np.log(tau) + hg * np.log(lam) - lam + ag * np.log(mu) - mu
+            tau, dlt_dloglam, dlt_dlogmu, dt_drho = cls._tau_with_grads(
+                hg, ag, lam, mu, rho
             )
+
+            ll = w * (np.log(tau) + hg * np.log(lam) - lam + ag * np.log(mu) - mu)
             # Pure shrinkage toward league average - not load-bearing for
             # identifiability, which the centring and intercept handle.
             penalty = L2_PENALTY * (np.sum(att**2) + np.sum(dfc**2))
-            return -ll.sum() + penalty
+            fval = -ll.sum() + penalty
 
-        x0 = np.concatenate([np.zeros(n), np.zeros(n), [0.0, 0.25, -0.05]])
+            # d(loglik)/d(log lambda) and d(log mu), per match.
+            gl = w * ((hg - lam) + dlt_dloglam)
+            gm = w * ((ag - mu) + dlt_dlogmu)
+
+            # Each club's attack enters lambda when at home, mu when away.
+            g_att = np.bincount(h, gl, n) + np.bincount(a, gm, n)
+            g_dfc = np.bincount(a, gl, n) + np.bincount(h, gm, n)
+            # Centring inside unpack() means the gradient is centred too.
+            g_att -= g_att.mean()
+            g_dfc -= g_dfc.mean()
+
+            g_icept = gl.sum() + gm.sum()
+            g_hadv = gl.sum()
+            g_rho = 0.0 if fixed_rho is not None else float(np.sum(w * dt_drho / tau))
+
+            grad = -np.concatenate([g_att, g_dfc, [g_icept, g_hadv, g_rho]])
+            grad[:n] += 2.0 * L2_PENALTY * att
+            grad[n : 2 * n] += 2.0 * L2_PENALTY * dfc
+            return fval, grad
+
+        if x0 is None:
+            x0 = np.concatenate([np.zeros(n), np.zeros(n), [0.0, 0.25, -0.05]])
         bounds = (
             [(-3.0, 3.0)] * n
             + [(-3.0, 3.0)] * n
@@ -170,14 +236,27 @@ class DixonColes:
         )
 
         opts = {"maxiter": 1000, "ftol": 1e-11}
-        res = minimize(neg_log_lik, x0, method="L-BFGS-B", bounds=bounds, options=opts)
 
-        # How much is the low-score correction actually earning? Refit with
-        # rho pinned to zero and compare. Reported, not asserted - a league
-        # where rho does nothing is information, not a failure.
-        res0 = minimize(
-            neg_log_lik, x0, args=(0.0,), method="L-BFGS-B", bounds=bounds, options=opts
-        )
+        # use_analytic_jac=False falls back to finite differences. Slow, but it
+        # is the reference the analytic gradient is checked against in
+        # tests/verify_model.py - a wrong gradient converges silently.
+        if use_analytic_jac:
+            fn, jac = objective, True
+        else:
+            fn, jac = (lambda p, fr=None: objective(p, fr)[0]), False
+
+        res = minimize(fn, x0, method="L-BFGS-B", jac=jac, bounds=bounds, options=opts)
+
+        # How much is the low-score correction actually earning? Refit with rho
+        # pinned to zero and compare. Off by default because it doubles the
+        # cost of every fit, which matters in a walk-forward backtest.
+        rho_gain = 0.0
+        if measure_rho_gain:
+            res0 = minimize(
+                fn, x0, args=(0.0,), method="L-BFGS-B", jac=jac,
+                bounds=bounds, options=opts,
+            )
+            rho_gain = float(res0.fun - res.fun)
 
         att, dfc, icept, hadv, rho = unpack(res.x)
 
@@ -194,7 +273,7 @@ class DixonColes:
             effective_n=float(w.sum()),
             converged=bool(res.success),
             log_likelihood=float(-res.fun),
-            rho_gain=float(res0.fun - res.fun),
+            rho_gain=rho_gain,
         )
 
     # --------------------------------------------------------------- prediction
@@ -202,28 +281,44 @@ class DixonColes:
     def knows(self, team: str) -> bool:
         return team in self.attack
 
-    def lambdas(self, home: str, away: str) -> tuple[float, float]:
-        """Expected goals for each side."""
-        for t in (home, away):
-            if t not in self.attack:
-                raise KeyError(
-                    f"{t!r} has no rating in {self.comp} as of "
-                    f"{self.as_of:%Y-%m-%d}. Newly promoted, or a name mismatch?"
-                )
-        lam = math.exp(
-            self.intercept + self.attack[home] + self.defence[away] + self.home_adv
-        )
-        mu = math.exp(self.intercept + self.attack[away] + self.defence[home])
+    def lambdas(
+        self, home: str, away: str, allow_unknown: bool = False
+    ) -> tuple[float, float]:
+        """Expected goals for each side.
+
+        With allow_unknown, a team the model has never seen is treated as
+        exactly league-average (attack 0, defence 0) rather than raising.
+        That matters for honesty in backtesting: newly promoted sides are the
+        hardest fixtures to call, and silently skipping them would flatter the
+        accuracy number. A promoted side gets an average prior, and is graded.
+        """
+        missing = [t for t in (home, away) if t not in self.attack]
+        if missing and not allow_unknown:
+            raise KeyError(
+                f"{missing[0]!r} has no rating in {self.comp} as of "
+                f"{self.as_of:%Y-%m-%d}. Newly promoted, or a name mismatch?"
+            )
+        att_h = self.attack.get(home, 0.0)
+        att_a = self.attack.get(away, 0.0)
+        def_h = self.defence.get(home, 0.0)
+        def_a = self.defence.get(away, 0.0)
+
+        lam = math.exp(self.intercept + att_h + def_a + self.home_adv)
+        mu = math.exp(self.intercept + att_a + def_h)
         return min(lam, 25.0), min(mu, 25.0)
 
     def score_matrix(
-        self, home: str, away: str, max_goals: int = cfg.MAX_GOALS
+        self,
+        home: str,
+        away: str,
+        max_goals: int = cfg.MAX_GOALS,
+        allow_unknown: bool = False,
     ) -> np.ndarray:
         """P(home scores i, away scores j) for i, j in 0..max_goals.
 
         This is the single object everything else is derived from.
         """
-        lam, mu = self.lambdas(home, away)
+        lam, mu = self.lambdas(home, away, allow_unknown=allow_unknown)
         gh = poisson.pmf(np.arange(max_goals + 1), lam)
         ga = poisson.pmf(np.arange(max_goals + 1), mu)
         m = np.outer(gh, ga)
@@ -241,10 +336,10 @@ class DixonColes:
             raise ValueError(f"degenerate score matrix for {home} v {away}")
         return m / total  # renormalise: the tail beyond max_goals is truncated
 
-    def predict(self, home: str, away: str) -> dict:
+    def predict(self, home: str, away: str, allow_unknown: bool = False) -> dict:
         """Every market for one fixture, all read off one matrix."""
-        m = self.score_matrix(home, away)
-        lam, mu = self.lambdas(home, away)
+        m = self.score_matrix(home, away, allow_unknown=allow_unknown)
+        lam, mu = self.lambdas(home, away, allow_unknown=allow_unknown)
         n = m.shape[0]
 
         tri = np.arange(n)
@@ -272,6 +367,7 @@ class DixonColes:
             "home": home,
             "away": away,
             "comp": self.comp,
+            "unrated": [t for t in (home, away) if t not in self.attack],
             "as_of": self.as_of.strftime("%Y-%m-%d") if self.as_of is not None else None,
             "lambda_home": round(lam, 3),
             "lambda_away": round(mu, 3),

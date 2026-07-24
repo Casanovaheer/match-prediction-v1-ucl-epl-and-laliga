@@ -1,0 +1,175 @@
+{
+  "generated": "2026-07-24 21:43",
+  "range": "2015-2026",
+  "overall": {
+    "model": {
+      "n": 8360,
+      "accuracy": 0.5257,
+      "log_loss": 0.9845,
+      "brier": 0.5848,
+      "rps": 0.1999
+    },
+    "market": {
+      "n": 8359,
+      "accuracy": 0.5464,
+      "log_loss": 0.9586,
+      "brier": 0.5686,
+      "rps": 0.1927
+    },
+    "model_on_market_subset": {
+      "n": 8359,
+      "accuracy": 0.5257,
+      "log_loss": 0.9845,
+      "brier": 0.5848,
+      "rps": 0.1999
+    },
+    "baseline_base_rate": {
+      "n": 8360,
+      "accuracy": 0.4504,
+      "log_loss": 1.0667,
+      "brier": 0.6447,
+      "rps": 0.229
+    }
+  },
+  "by_competition": {
+    "E0": {
+      "model": {
+        "n": 4180,
+        "accuracy": 0.5337,
+        "log_loss": 0.9799,
+        "brier": 0.5809,
+        "rps": 0.2008
+      },
+      "market": {
+        "n": 4180,
+        "accuracy": 0.5498,
+        "log_loss": 0.9561,
+        "brier": 0.5665,
+        "rps": 0.1943
+      },
+      "model_on_market_subset": {
+        "n": 4180,
+        "accuracy": 0.5337,
+        "log_loss": 0.9799,
+        "brier": 0.5809,
+        "rps": 0.2008
+      },
+      "baseline_base_rate": {
+        "n": 4180,
+        "accuracy": 0.4433,
+        "log_loss": 1.0664,
+        "brier": 0.6451,
+        "rps": 0.2322
+      }
+    },
+    "SP1": {
+      "model": {
+        "n": 4180,
+        "accuracy": 0.5177,
+        "log_loss": 0.989,
+        "brier": 0.5887,
+        "rps": 0.1991
+      },
+      "market": {
+        "n": 4179,
+        "accuracy": 0.543,
+        "log_loss": 0.9611,
+        "brier": 0.5707,
+        "rps": 0.1911
+      },
+      "model_on_market_subset": {
+        "n": 4179,
+        "accuracy": 0.5176,
+        "log_loss": 0.9892,
+        "brier": 0.5888,
+        "rps": 0.1991
+      },
+      "baseline_base_rate": {
+        "n": 4180,
+        "accuracy": 0.4574,
+        "log_loss": 1.0652,
+        "brier": 0.6433,
+        "rps": 0.2254
+      }
+    }
+  },
+  "by_season": {
+    "2015-16": {
+      "n": 760,
+      "accuracy": 0.4947,
+      "log_loss": 1.0084,
+      "brier": 0.602,
+      "rps": 0.2045
+    },
+    "2016-17": {
+      "n": 760,
+      "accuracy": 0.5658,
+      "log_loss": 0.9369,
+      "brier": 0.5531,
+      "rps": 0.1891
+    },
+    "2017-18": {
+      "n": 760,
+      "accuracy": 0.5474,
+      "log_loss": 0.9716,
+      "brier": 0.5753,
+      "rps": 0.1956
+    },
+    "2018-19": {
+      "n": 760,
+      "accuracy": 0.5263,
+      "log_loss": 0.9627,
+      "brier": 0.5712,
+      "rps": 0.1965
+    },
+    "2019-20": {
+      "n": 760,
+      "accuracy": 0.525,
+      "log_loss": 0.987,
+      "brier": 0.5891,
+      "rps": 0.2011
+    },
+    "2020-21": {
+      "n": 760,
+      "accuracy": 0.5105,
+      "log_loss": 1.024,
+      "brier": 0.6063,
+      "rps": 0.2088
+    },
+    "2021-22": {
+      "n": 760,
+      "accuracy": 0.5263,
+      "log_loss": 0.9889,
+      "brier": 0.5891,
+      "rps": 0.1991
+    },
+    "2022-23": {
+      "n": 760,
+      "accuracy": 0.5211,
+      "log_loss": 1.0086,
+      "brier": 0.5996,
+      "rps": 0.2103
+    },
+    "2023-24": {
+      "n": 760,
+      "accuracy": 0.5513,
+      "log_loss": 0.9502,
+      "brier": 0.5632,
+      "rps": 0.1893
+    },
+    "2024-25": {
+      "n": 760,
+      "accuracy": 0.5211,
+      "log_loss": 0.976,
+      "brier": 0.5814,
+      "rps": 0.1982
+    },
+    "2025-26": {
+      "n": 760,
+      "accuracy": 0.4934,
+      "log_loss": 1.015,
+      "brier": 0.6026,
+      "rps": 0.2064
+    }
+  }
+}
