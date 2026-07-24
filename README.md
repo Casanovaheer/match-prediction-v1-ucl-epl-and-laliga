@@ -83,6 +83,18 @@ python -m src.predict "Real Madrid" "Barcelona"
     BTTS      61.8%     CS home   23.6%     CS away   18.8%
 ```
 
+### Ranked top picks for one match
+
+```bash
+python -m src.toppick "Real Madrid" "Barcelona"
+```
+
+One headline pick, every market ranked by confidence (STRONG / solid / lean /
+coin flip), correct score, winning margin, and an explicit "do not bet these"
+list for anything within 3 points of a coin flip. It selects the engine
+automatically — Dixon-Coles for the collected leagues, the ClubElo bridge for
+everyone else — and labels which one it used.
+
 ### Other commands
 
 ```bash
@@ -93,6 +105,15 @@ python -m src.simulate --comp SP1 --as-of 2026-01-01   # replay a past projectio
 python -m src.ucl --sims 2000                 # Champions League
 python -m src.report                          # build the published site
 ```
+
+### No-code launchers (Windows)
+
+Double-click, no terminal needed:
+
+- `1 - SHOW RESULTS.bat` — open the predictions page in a browser
+- `2 - UPDATE EVERYTHING.bat` — refresh all data and rebuild
+- `3 - PREDICT ONE MATCH.bat` — full match card
+- `4 - TOP PICKS.bat` — ranked top picks for one fixture
 
 ---
 
