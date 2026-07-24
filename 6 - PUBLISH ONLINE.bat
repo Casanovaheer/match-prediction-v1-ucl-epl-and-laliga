@@ -21,7 +21,7 @@ if errorlevel 1 goto fail
 echo.
 echo  ------------------------------------------------------------
 echo   DONE. Your page is live at:
-echo   https://casanovaheer.github.io/match-prediction-v1-ucl-epl-and-laliga/match.html
+echo   https://casanovaheer.github.io/match-prediction-v1-ucl-epl-and-laliga/docs/match.html
 echo  ------------------------------------------------------------
 echo.
 echo   Open that link on any phone or computer, type two teams.
