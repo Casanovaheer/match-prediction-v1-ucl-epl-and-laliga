@@ -1,6 +1,6 @@
 # Match Predictions — UCL, Premier League and La Liga
 
-*Generated 2026-07-24 22:32 UTC · data through 2026-05-24*
+*Generated 2026-08-07 07:07 UTC · data through 2026-08-03*
 
 Every number below comes from a time-weighted Dixon-Coles model fitted only on matches played before the prediction date. Method and measured accuracy are in the [README](https://github.com/Casanovaheer/match-prediction-v1-ucl-epl-and-laliga).
 
@@ -13,18 +13,18 @@ Every number below comes from a time-weighted Dixon-Coles model fitted only on m
 
 | Club | Attack | Defence | Strength | xG scored (H) | xG conceded (H) |
 |---|---:|---:|---:|---:|---:|
-| Arsenal | +0.379 | -0.695 | +1.074 | 2.18 | 0.62 |
-| Manchester City | +0.473 | -0.475 | +0.948 | 2.39 | 0.77 |
-| Liverpool | +0.378 | -0.119 | +0.498 | 2.18 | 1.10 |
-| Manchester United | +0.316 | -0.170 | +0.486 | 2.04 | 1.05 |
-| Bournemouth | +0.206 | -0.153 | +0.360 | 1.83 | 1.06 |
-| Aston Villa | +0.221 | -0.133 | +0.354 | 1.86 | 1.08 |
-| Brighton | +0.134 | -0.181 | +0.314 | 1.70 | 1.03 |
-| Nottingham Forest | +0.127 | -0.177 | +0.304 | 1.69 | 1.04 |
-| Brentford | +0.193 | -0.105 | +0.298 | 1.81 | 1.12 |
-| Newcastle | +0.222 | -0.066 | +0.288 | 1.86 | 1.16 |
-| Chelsea | +0.179 | -0.102 | +0.281 | 1.78 | 1.12 |
-| Leeds | +0.070 | -0.100 | +0.170 | 1.60 | 1.12 |
+| Arsenal | +0.376 | -0.693 | +1.069 | 2.17 | 0.62 |
+| Manchester City | +0.470 | -0.473 | +0.943 | 2.39 | 0.77 |
+| Liverpool | +0.375 | -0.118 | +0.493 | 2.17 | 1.10 |
+| Manchester United | +0.313 | -0.169 | +0.481 | 2.04 | 1.05 |
+| Bournemouth | +0.203 | -0.152 | +0.355 | 1.83 | 1.07 |
+| Aston Villa | +0.218 | -0.132 | +0.350 | 1.86 | 1.09 |
+| Brighton | +0.130 | -0.179 | +0.309 | 1.70 | 1.04 |
+| Nottingham Forest | +0.124 | -0.175 | +0.299 | 1.69 | 1.04 |
+| Brentford | +0.190 | -0.103 | +0.293 | 1.80 | 1.12 |
+| Newcastle | +0.219 | -0.064 | +0.283 | 1.86 | 1.16 |
+| Chelsea | +0.176 | -0.100 | +0.276 | 1.78 | 1.12 |
+| Leeds | +0.067 | -0.098 | +0.165 | 1.60 | 1.12 |
 
 ### Season projection
 
@@ -51,49 +51,84 @@ Every number below comes from a time-weighted Dixon-Coles model fitted only on m
 | 19 | Burnley | 38 | 22 | 22.0 | 0.0% | 0.0% | 100.0% |
 | 20 | Wolverhampton | 38 | 20 | 20.0 | 0.0% | 0.0% | 100.0% |
 
-## La Liga 2025-26
+## La Liga 2026-27
 
 ### Team ratings
 
 | Club | Attack | Defence | Strength | xG scored (H) | xG conceded (H) |
 |---|---:|---:|---:|---:|---:|
-| Barcelona | +0.683 | -0.360 | +1.044 | 2.90 | 0.74 |
-| Real Madrid | +0.494 | -0.380 | +0.874 | 2.40 | 0.73 |
-| Villarreal | +0.450 | -0.066 | +0.516 | 2.29 | 1.00 |
-| Atletico Madrid | +0.312 | -0.176 | +0.488 | 2.00 | 0.89 |
-| Real Betis | +0.248 | -0.082 | +0.330 | 1.87 | 0.98 |
-| Celta Vigo | +0.182 | -0.063 | +0.245 | 1.75 | 1.00 |
-| Rayo Vallecano | -0.092 | -0.204 | +0.113 | 1.33 | 0.87 |
-| Real Sociedad | +0.212 | +0.113 | +0.099 | 1.81 | 1.19 |
-| Valencia | +0.055 | -0.024 | +0.079 | 1.54 | 1.04 |
-| Athletic Bilbao | +0.023 | -0.017 | +0.040 | 1.50 | 1.05 |
-| Osasuna | -0.002 | -0.032 | +0.030 | 1.46 | 1.03 |
-| Getafe | -0.344 | -0.360 | +0.016 | 1.04 | 0.74 |
+| Livingston | +0.368 | -1.292 | +1.660 | 1.37 | 0.19 |
+| Ayr | +0.368 | -1.292 | +1.660 | 1.37 | 0.19 |
+| Partick | +0.180 | -1.403 | +1.583 | 1.14 | 0.17 |
+| Barcelona | +0.898 | -0.146 | +1.044 | 2.34 | 0.60 |
+| Real Madrid | +0.709 | -0.165 | +0.874 | 1.93 | 0.59 |
+| Villarreal | +0.665 | +0.149 | +0.516 | 1.85 | 0.80 |
+| Atletico Madrid | +0.527 | +0.039 | +0.488 | 1.61 | 0.72 |
+| Real Betis | +0.463 | +0.133 | +0.330 | 1.51 | 0.79 |
+| Celta Vigo | +0.397 | +0.151 | +0.246 | 1.41 | 0.81 |
+| Stenhousemuir | +0.180 | +0.024 | +0.156 | 1.14 | 0.71 |
+| Dunfermline | -1.292 | -1.409 | +0.117 | 0.26 | 0.17 |
+| Rayo Vallecano | +0.123 | +0.011 | +0.113 | 1.08 | 0.70 |
 
 ### Season projection
 
 | # | Club | Pl | Pts | Proj | Title | Top 4 | Relegation |
 |---:|---|---:|---:|---:|---:|---:|---:|
-| 1 | Barcelona | 38 | 94 | 94.0 | 100.0% | 100.0% | 0.0% |
-| 2 | Real Madrid | 38 | 86 | 86.0 | 0.0% | 100.0% | 0.0% |
-| 3 | Villarreal | 38 | 72 | 72.0 | 0.0% | 100.0% | 0.0% |
-| 4 | Atletico Madrid | 38 | 69 | 69.0 | 0.0% | 100.0% | 0.0% |
-| 5 | Real Betis | 38 | 60 | 60.0 | 0.0% | 0.0% | 0.0% |
-| 6 | Celta Vigo | 38 | 54 | 54.0 | 0.0% | 0.0% | 0.0% |
-| 7 | Getafe | 38 | 51 | 51.0 | 0.0% | 0.0% | 0.0% |
-| 8 | Rayo Vallecano | 38 | 50 | 50.0 | 0.0% | 0.0% | 0.0% |
-| 9 | Valencia | 38 | 49 | 49.0 | 0.0% | 0.0% | 0.0% |
-| 10 | Real Sociedad | 38 | 46 | 46.0 | 0.0% | 0.0% | 0.0% |
-| 11 | Espanyol | 38 | 46 | 46.0 | 0.0% | 0.0% | 0.0% |
-| 12 | Athletic Bilbao | 38 | 45 | 45.0 | 0.0% | 0.0% | 0.0% |
-| 13 | Elche | 38 | 43 | 43.0 | 0.0% | 0.0% | 0.0% |
-| 14 | Alaves | 38 | 43 | 43.0 | 0.0% | 0.0% | 0.0% |
-| 15 | Sevilla | 38 | 43 | 43.0 | 0.0% | 0.0% | 0.0% |
-| 16 | Osasuna | 38 | 42 | 42.0 | 0.0% | 0.0% | 0.0% |
-| 17 | Mallorca | 38 | 42 | 42.0 | 0.0% | 0.0% | 0.0% |
-| 18 | Levante | 38 | 42 | 42.0 | 0.0% | 0.0% | 100.0% |
-| 19 | Girona | 38 | 41 | 41.0 | 0.0% | 0.0% | 100.0% |
-| 20 | Oviedo | 38 | 29 | 29.0 | 0.0% | 0.0% | 100.0% |
+| 1 | Ayr | 1 | 3 | 35.1 | 38.1% | 99.5% | 0.0% |
+| 2 | Livingston | 1 | 3 | 35.1 | 37.6% | 99.4% | 0.0% |
+| 3 | Partick | 1 | 3 | 33.8 | 23.7% | 98.8% | 0.0% |
+| 4 | Stenhousemuir | 1 | 1 | 24.7 | 0.5% | 55.5% | 1.5% |
+| 5 | Raith Rvs | 1 | 1 | 21.8 | 0.1% | 22.3% | 5.5% |
+| 6 | Dunfermline | 1 | 1 | 20.9 | 0.0% | 14.7% | 3.6% |
+| 7 | Inverness C | 1 | 1 | 19.9 | 0.0% | 9.5% | 6.4% |
+| 8 | Morton | 1 | 0 | 12.2 | 0.0% | 0.1% | 92.9% |
+| 9 | Arbroath | 1 | 0 | 11.4 | 0.0% | 0.1% | 95.0% |
+| 10 | Queens Park | 1 | 0 | 11.4 | 0.0% | 0.1% | 95.1% |
+
+### Upcoming fixtures (85 unplayed)
+
+| Fixture | Home | Draw | Away | Over 2.5 | BTTS | Likeliest |
+|---|---:|---:|---:|---:|---:|---:|
+| Ayr v Queens Park | 84.9% | 14.4% | 0.8% | 33.4% | 4.4% | 1-0 |
+| Livingston v Arbroath | 84.9% | 14.4% | 0.8% | 33.4% | 4.4% | 1-0 |
+| Ayr v Morton | 79.2% | 19.8% | 0.9% | 24.1% | 3.7% | 1-0 |
+| Livingston v Morton | 79.2% | 19.8% | 0.9% | 24.1% | 3.7% | 1-0 |
+| Partick v Arbroath | 79.2% | 19.8% | 0.9% | 24.1% | 3.7% | 1-0 |
+| Partick v Queens Park | 79.2% | 19.8% | 0.9% | 24.1% | 3.7% | 1-0 |
+| Ayr v Raith Rvs | 74.7% | 21.2% | 4.1% | 28.0% | 14.2% | 1-0 |
+| Livingston v Raith Rvs | 74.7% | 21.2% | 4.1% | 28.0% | 14.2% | 1-0 |
+| Stenhousemuir v Arbroath | 74.7% | 21.2% | 4.1% | 28.0% | 14.2% | 1-0 |
+| Stenhousemuir v Queens Park | 74.7% | 21.2% | 4.1% | 28.0% | 14.2% | 1-0 |
+| Partick v Morton | 73.0% | 25.9% | 1.1% | 16.8% | 3.0% | 1-0 |
+| Partick v Raith Rvs | 68.6% | 26.7% | 4.7% | 20.1% | 11.8% | 1-0 |
+| Stenhousemuir v Morton | 68.6% | 26.7% | 4.7% | 20.1% | 11.8% | 1-0 |
+| Ayr v Stenhousemuir | 68.1% | 26.0% | 5.9% | 22.6% | 15.3% | 1-0 |
+| Livingston v Stenhousemuir | 68.1% | 26.0% | 5.9% | 22.6% | 15.3% | 1-0 |
+| Raith Rvs v Arbroath | 68.1% | 26.0% | 5.9% | 22.6% | 15.3% | 1-0 |
+| Raith Rvs v Queens Park | 68.1% | 26.0% | 5.9% | 22.6% | 15.3% | 1-0 |
+| Partick v Stenhousemuir | 61.9% | 31.6% | 6.5% | 16.0% | 12.6% | 1-0 |
+| Raith Rvs v Morton | 61.9% | 31.6% | 6.5% | 16.0% | 12.6% | 1-0 |
+| Stenhousemuir v Raith Rvs | 52.2% | 27.6% | 20.1% | 34.8% | 38.3% | 1-0 |
+| Ayr v Inverness C | 30.3% | 66.6% | 3.2% | 0.9% | 1.4% | 0-0 |
+| Dunfermline v Arbroath | 30.3% | 66.6% | 3.2% | 0.9% | 1.4% | 0-0 |
+| Dunfermline v Queens Park | 30.3% | 66.6% | 3.2% | 0.9% | 1.4% | 0-0 |
+| Livingston v Inverness C | 30.3% | 66.6% | 3.2% | 0.9% | 1.4% | 0-0 |
+| Ayr v Dunfermline | 27.3% | 69.0% | 3.7% | 0.7% | 1.4% | 0-0 |
+| Inverness C v Arbroath | 27.3% | 69.0% | 3.7% | 0.7% | 1.4% | 0-0 |
+| Inverness C v Queens Park | 27.3% | 69.0% | 3.7% | 0.7% | 1.4% | 0-0 |
+| Livingston v Dunfermline | 27.3% | 69.0% | 3.7% | 0.7% | 1.4% | 0-0 |
+| Dunfermline v Morton | 25.9% | 71.0% | 3.0% | 0.6% | 1.1% | 0-0 |
+| Partick v Inverness C | 25.9% | 71.0% | 3.0% | 0.6% | 1.1% | 0-0 |
+| Arbroath v Queens Park | 25.2% | 57.4% | 17.4% | 2.9% | 7.5% | 0-0 |
+| Ayr v Livingston | 25.2% | 57.4% | 17.4% | 2.9% | 7.5% | 0-0 |
+| Livingston v Ayr | 25.2% | 57.4% | 17.4% | 2.9% | 7.5% | 0-0 |
+| Queens Park v Arbroath | 25.2% | 57.4% | 17.4% | 2.9% | 7.5% | 0-0 |
+| Ayr v Partick | 23.8% | 61.1% | 15.2% | 2.0% | 5.8% | 0-0 |
+| Livingston v Partick | 23.8% | 61.1% | 15.2% | 2.0% | 5.8% | 0-0 |
+| Morton v Arbroath | 23.8% | 61.1% | 15.2% | 2.0% | 5.8% | 0-0 |
+| Morton v Queens Park | 23.8% | 61.1% | 15.2% | 2.0% | 5.8% | 0-0 |
+| Inverness C v Morton | 23.4% | 73.2% | 3.5% | 0.4% | 1.1% | 0-0 |
+| Partick v Dunfermline | 23.4% | 73.2% | 3.5% | 0.4% | 1.1% | 0-0 |
 
 ## Champions League 2026-27
 
