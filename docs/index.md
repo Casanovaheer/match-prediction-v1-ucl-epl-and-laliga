@@ -1,104 +1,55 @@
 # Match Predictions — UCL, Premier League and La Liga
 
-*Generated 2026-08-14 07:18 UTC · data through 2026-08-10*
+*Generated 2026-08-21 06:39 UTC · data through 2026-08-17*
 
 Every number below comes from a time-weighted Dixon-Coles model fitted only on matches played before the prediction date. Method and measured accuracy are in the [README](https://github.com/Casanovaheer/match-prediction-v1-ucl-epl-and-laliga).
 
 **Measured out of sample over 8,360 matches:** 52.6% accuracy, 0.9845 log-loss, versus 54.6% / 0.9586 for bookmaker closing odds.
 
 
-## Premier League 2026-27
+## Premier League 2025-26
 
 ### Team ratings
 
 | Club | Attack | Defence | Strength | xG scored (H) | xG conceded (H) |
 |---|---:|---:|---:|---:|---:|
-| Sutton | +0.484 | -1.542 | +2.026 | 2.21 | 0.24 |
-| Hornchurch | +0.392 | -1.473 | +1.865 | 2.02 | 0.26 |
-| Hartlepool | +0.190 | -1.473 | +1.663 | 1.65 | 0.26 |
-| Aldershot | -0.061 | -1.588 | +1.527 | 1.28 | 0.23 |
-| Arsenal | +0.422 | -0.649 | +1.070 | 2.08 | 0.59 |
-| Manchester City | +0.516 | -0.427 | +0.943 | 2.28 | 0.74 |
-| Southend | +0.484 | -0.152 | +0.636 | 2.21 | 0.97 |
-| Liverpool | +0.421 | -0.073 | +0.493 | 2.08 | 1.05 |
-| Manchester United | +0.358 | -0.123 | +0.481 | 1.95 | 1.00 |
-| Harrogate | +0.648 | +0.281 | +0.366 | 2.60 | 1.50 |
-| Bournemouth | +0.249 | -0.106 | +0.355 | 1.75 | 1.02 |
-| Aston Villa | +0.263 | -0.086 | +0.349 | 1.77 | 1.04 |
+| Arsenal | +0.376 | -0.693 | +1.069 | 2.17 | 0.62 |
+| Manchester City | +0.470 | -0.472 | +0.942 | 2.39 | 0.77 |
+| Liverpool | +0.375 | -0.117 | +0.492 | 2.17 | 1.10 |
+| Manchester United | +0.312 | -0.168 | +0.481 | 2.04 | 1.05 |
+| Bournemouth | +0.203 | -0.151 | +0.354 | 1.83 | 1.07 |
+| Aston Villa | +0.218 | -0.131 | +0.349 | 1.86 | 1.09 |
+| Brighton | +0.130 | -0.179 | +0.309 | 1.70 | 1.04 |
+| Nottingham Forest | +0.124 | -0.175 | +0.299 | 1.69 | 1.04 |
+| Brentford | +0.189 | -0.103 | +0.292 | 1.80 | 1.12 |
+| Newcastle | +0.219 | -0.064 | +0.282 | 1.86 | 1.16 |
+| Chelsea | +0.176 | -0.099 | +0.275 | 1.78 | 1.12 |
+| Leeds | +0.066 | -0.098 | +0.164 | 1.60 | 1.13 |
 
 ### Season projection
 
 | # | Club | Pl | Pts | Proj | Title | Top 4 | Relegation |
 |---:|---|---:|---:|---:|---:|---:|---:|
-| 1 | Sutton | 1 | 3 | 115.3 | 62.1% | 100.0% | 0.0% |
-| 2 | Hornchurch | 1 | 3 | 111.9 | 30.5% | 99.6% | 0.0% |
-| 3 | Hartlepool | 1 | 3 | 105.6 | 6.3% | 95.5% | 0.0% |
-| 4 | Aldershot | 1 | 3 | 99.0 | 1.0% | 78.0% | 0.0% |
-| 5 | Southend | 1 | 3 | 90.0 | 0.0% | 21.0% | 0.0% |
-| 6 | Harrogate | 1 | 3 | 82.2 | 0.0% | 3.8% | 0.0% |
-| 7 | Worthing | 1 | 3 | 78.5 | 0.0% | 1.4% | 0.0% |
-| 8 | Eastleigh | 1 | 3 | 74.5 | 0.0% | 0.4% | 0.0% |
-| 9 | Forest Green | 1 | 3 | 70.6 | 0.0% | 0.1% | 0.0% |
-| 10 | Tamworth | 1 | 1 | 68.8 | 0.0% | 0.1% | 0.0% |
-| 11 | Wealdstone | 1 | 1 | 67.8 | 0.0% | 0.1% | 0.0% |
-| 12 | Yeovil | 1 | 1 | 66.0 | 0.0% | 0.0% | 0.0% |
-| 13 | Boreham Wood | 1 | 1 | 60.5 | 0.0% | 0.0% | 0.0% |
-| 14 | Fylde | 1 | 1 | 60.1 | 0.0% | 0.0% | 0.0% |
-| 15 | Scunthorpe | 1 | 1 | 59.2 | 0.0% | 0.0% | 0.0% |
-| 16 | Halifax | 1 | 0 | 58.9 | 0.0% | 0.0% | 0.0% |
-| 17 | Gateshead | 1 | 0 | 53.1 | 0.0% | 0.0% | 0.0% |
-| 18 | Carlisle | 1 | 0 | 51.1 | 0.0% | 0.0% | 0.0% |
-| 19 | Solihull | 1 | 0 | 48.5 | 0.0% | 0.0% | 0.1% |
-| 20 | Altrincham | 1 | 0 | 39.3 | 0.0% | 0.0% | 1.1% |
-| 21 | Boston Utd | 1 | 0 | 25.2 | 0.0% | 0.0% | 33.3% |
-| 22 | Barrow | 1 | 0 | 21.1 | 0.0% | 0.0% | 74.2% |
-| 23 | Kidderminster | 1 | 0 | 16.9 | 0.0% | 0.0% | 93.5% |
-| 24 | Woking | 1 | 0 | 14.5 | 0.0% | 0.0% | 97.8% |
-
-### Upcoming fixtures (200 unplayed)
-
-| Fixture | Home | Draw | Away | Over 2.5 | BTTS | Likeliest |
-|---|---:|---:|---:|---:|---:|---:|
-| Forest Green v Woking | 91.5% | 7.2% | 1.3% | 69.6% | 26.8% | 3-0 |
-| Boreham Wood v Woking | 90.3% | 7.9% | 1.7% | 70.8% | 31.7% | 3-0 |
-| Forest Green v Kidderminster | 88.9% | 9.3% | 1.8% | 64.6% | 28.1% | 2-0 |
-| Eastleigh v Woking | 88.3% | 10.2% | 1.4% | 55.4% | 19.4% | 2-0 |
-| Boreham Wood v Kidderminster | 87.5% | 10.1% | 2.5% | 66.1% | 33.2% | 2-0 |
-| Fylde v Woking | 86.3% | 11.4% | 2.2% | 57.5% | 26.1% | 2-0 |
-| Aldershot v Woking | 86.1% | 13.5% | 0.5% | 35.8% | 4.4% | 2-0 |
-| Eastleigh v Kidderminster | 85.4% | 12.6% | 2.0% | 50.2% | 20.3% | 2-0 |
-| Carlisle v Woking | 84.8% | 12.2% | 2.9% | 59.1% | 30.9% | 2-0 |
-| Aldershot v Solihull | 84.1% | 13.3% | 2.6% | 52.0% | 24.8% | 2-0 |
-| Aldershot v Kidderminster | 83.3% | 16.1% | 0.6% | 31.0% | 4.6% | 1-0 |
-| Forest Green v Barrow | 83.1% | 13.9% | 3.0% | 52.6% | 27.2% | 2-0 |
-| Fylde v Kidderminster | 83.1% | 13.9% | 3.0% | 52.6% | 27.2% | 2-0 |
-| Aldershot v Altrincham | 81.8% | 16.0% | 2.2% | 39.8% | 16.3% | 2-0 |
-| Boreham Wood v Barrow | 81.2% | 14.8% | 4.0% | 54.5% | 32.1% | 2-0 |
-| Carlisle v Kidderminster | 81.2% | 14.8% | 4.0% | 54.5% | 32.1% | 2-0 |
-| Aldershot v Carlisle | 79.5% | 17.2% | 3.3% | 41.9% | 22.1% | 2-0 |
-| Eastleigh v Barrow | 79.1% | 17.9% | 3.0% | 38.7% | 19.4% | 2-0 |
-| Aldershot v Boreham Wood | 77.8% | 18.0% | 4.2% | 43.6% | 26.2% | 2-0 |
-| Aldershot v Barrow | 76.8% | 22.2% | 0.9% | 21.7% | 4.3% | 1-0 |
-| Fylde v Barrow | 76.2% | 19.2% | 4.6% | 41.4% | 26.0% | 2-0 |
-| Aldershot v Halifax | 75.5% | 20.1% | 4.3% | 37.8% | 23.3% | 1-0 |
-| Forest Green v Boston Utd | 75.5% | 20.1% | 4.3% | 37.8% | 23.3% | 1-0 |
-| Forest Green v Altrincham | 75.1% | 14.1% | 10.8% | 83.3% | 70.3% | 3-1 |
-| Carlisle v Barrow | 74.1% | 20.1% | 5.8% | 43.4% | 30.6% | 2-0 |
-| Eastleigh v Altrincham | 73.7% | 16.7% | 9.6% | 69.5% | 56.7% | 2-0 |
-| Aldershot v Tamworth | 73.5% | 20.9% | 5.5% | 39.7% | 27.6% | 1-0 |
-| Boreham Wood v Boston Utd | 73.5% | 20.9% | 5.5% | 39.7% | 27.6% | 1-0 |
-| Altrincham v Woking | 73.1% | 21.1% | 5.8% | 40.2% | 28.6% | 1-0 |
-| Aldershot v Fylde | 72.4% | 22.9% | 4.7% | 31.7% | 20.8% | 1-0 |
-| Eastleigh v Solihull | 71.2% | 15.5% | 13.4% | 83.3% | 73.0% | 3-1 |
-| Aldershot v Gateshead | 71.1% | 24.8% | 4.1% | 26.1% | 16.2% | 1-0 |
-| Eastleigh v Boston Utd | 71.1% | 24.8% | 4.1% | 26.1% | 16.2% | 1-0 |
-| Forest Green v Solihull | 71.0% | 13.4% | 15.6% | 93.0% | 84.8% | 3-1 |
-| Aldershot v Forest Green | 70.4% | 23.6% | 5.9% | 33.4% | 24.7% | 1-0 |
-| Boreham Wood v Altrincham | 69.9% | 15.3% | 14.8% | 86.2% | 76.9% | 3-1 |
-| Altrincham v Kidderminster | 68.8% | 23.9% | 7.3% | 36.5% | 29.4% | 1-0 |
-| Aldershot v Boston Utd | 68.2% | 30.6% | 1.2% | 13.2% | 3.5% | 1-0 |
-| Aldershot v Wealdstone | 68.1% | 25.9% | 6.0% | 28.5% | 21.8% | 1-0 |
-| Fylde v Boston Utd | 68.1% | 25.9% | 6.0% | 28.5% | 21.8% | 1-0 |
+| 1 | Arsenal | 38 | 85 | 85.0 | 100.0% | 100.0% | 0.0% |
+| 2 | Manchester City | 38 | 78 | 78.0 | 0.0% | 100.0% | 0.0% |
+| 3 | Manchester United | 38 | 71 | 71.0 | 0.0% | 100.0% | 0.0% |
+| 4 | Aston Villa | 38 | 65 | 65.0 | 0.0% | 100.0% | 0.0% |
+| 5 | Liverpool | 38 | 60 | 60.0 | 0.0% | 0.0% | 0.0% |
+| 6 | Bournemouth | 38 | 57 | 57.0 | 0.0% | 0.0% | 0.0% |
+| 7 | Sunderland | 38 | 54 | 54.0 | 0.0% | 0.0% | 0.0% |
+| 8 | Brighton | 38 | 53 | 53.0 | 0.0% | 0.0% | 0.0% |
+| 9 | Brentford | 38 | 53 | 53.0 | 0.0% | 0.0% | 0.0% |
+| 10 | Chelsea | 38 | 52 | 52.0 | 0.0% | 0.0% | 0.0% |
+| 11 | Fulham | 38 | 52 | 52.0 | 0.0% | 0.0% | 0.0% |
+| 12 | Newcastle | 38 | 49 | 49.0 | 0.0% | 0.0% | 0.0% |
+| 13 | Everton | 38 | 49 | 49.0 | 0.0% | 0.0% | 0.0% |
+| 14 | Leeds | 38 | 47 | 47.0 | 0.0% | 0.0% | 0.0% |
+| 15 | Crystal Palace | 38 | 45 | 45.0 | 0.0% | 0.0% | 0.0% |
+| 16 | Nottingham Forest | 38 | 44 | 44.0 | 0.0% | 0.0% | 0.0% |
+| 17 | Tottenham | 38 | 41 | 41.0 | 0.0% | 0.0% | 0.0% |
+| 18 | West Ham | 38 | 39 | 39.0 | 0.0% | 0.0% | 100.0% |
+| 19 | Burnley | 38 | 22 | 22.0 | 0.0% | 0.0% | 100.0% |
+| 20 | Wolverhampton | 38 | 20 | 20.0 | 0.0% | 0.0% | 100.0% |
 
 ## La Liga 2026-27
 
@@ -106,86 +57,78 @@ Every number below comes from a time-weighted Dixon-Coles model fitted only on m
 
 | Club | Attack | Defence | Strength | xG scored (H) | xG conceded (H) |
 |---|---:|---:|---:|---:|---:|
-| Porto | +0.259 | -1.373 | +1.633 | 1.54 | 0.22 |
-| Arouca | +0.073 | -1.483 | +1.556 | 1.27 | 0.20 |
-| Gil Vicente | -0.083 | -1.367 | +1.284 | 1.09 | 0.22 |
-| Maritimo | -0.083 | -1.366 | +1.283 | 1.09 | 0.22 |
-| Barcelona | +0.788 | -0.255 | +1.043 | 2.61 | 0.67 |
-| Real Madrid | +0.599 | -0.274 | +0.874 | 2.16 | 0.66 |
-| Villarreal | +0.555 | +0.040 | +0.515 | 2.06 | 0.90 |
-| Atletico Madrid | +0.417 | -0.071 | +0.488 | 1.80 | 0.80 |
-| Real Betis | +0.353 | +0.024 | +0.330 | 1.69 | 0.88 |
-| Celta Vigo | +0.287 | +0.042 | +0.245 | 1.58 | 0.90 |
-| Nacional | +0.417 | +0.259 | +0.158 | 1.80 | 1.12 |
-| Academico Viseu | +0.417 | +0.259 | +0.158 | 1.80 | 1.12 |
+| Barcelona | +0.684 | -0.367 | +1.051 | 2.93 | 0.73 |
+| Real Madrid | +0.494 | -0.387 | +0.881 | 2.42 | 0.72 |
+| Villarreal | +0.450 | -0.071 | +0.520 | 2.32 | 0.98 |
+| Atletico Madrid | +0.312 | -0.181 | +0.493 | 2.02 | 0.88 |
+| Real Betis | +0.248 | -0.087 | +0.334 | 1.89 | 0.97 |
+| Celta Vigo | +0.182 | -0.070 | +0.252 | 1.77 | 0.98 |
+| Santander | +0.366 | +0.186 | +0.181 | 2.13 | 1.27 |
+| Real Sociedad | +0.210 | +0.106 | +0.103 | 1.82 | 1.17 |
+| Rayo Vallecano | -0.092 | -0.181 | +0.090 | 1.35 | 0.88 |
+| Valencia | +0.055 | -0.030 | +0.085 | 1.56 | 1.02 |
+| Alaves | +0.050 | +0.002 | +0.048 | 1.55 | 1.06 |
+| Athletic Bilbao | +0.023 | -0.023 | +0.047 | 1.51 | 1.03 |
 
 ### Season projection
 
 | # | Club | Pl | Pts | Proj | Title | Top 4 | Relegation |
 |---:|---|---:|---:|---:|---:|---:|---:|
-| 1 | Porto | 1 | 3 | 74.5 | 56.3% | 99.3% | 0.0% |
-| 2 | Arouca | 1 | 3 | 71.3 | 27.8% | 96.8% | 0.0% |
-| 3 | Gil Vicente | 1 | 3 | 66.3 | 7.9% | 85.1% | 0.0% |
-| 4 | Maritimo | 1 | 3 | 66.3 | 7.7% | 85.2% | 0.0% |
-| 5 | Academico Viseu | 1 | 1 | 51.5 | 0.1% | 7.0% | 0.0% |
-| 6 | Sp Braga | 1 | 1 | 51.4 | 0.1% | 7.0% | 0.0% |
-| 7 | Nacional | 1 | 1 | 51.4 | 0.0% | 6.8% | 0.0% |
-| 8 | Sp Lisbon | 1 | 1 | 51.3 | 0.1% | 6.8% | 0.0% |
-| 9 | Famalicao | 1 | 1 | 49.7 | 0.0% | 4.5% | 0.0% |
-| 10 | Estrela | 1 | 1 | 42.3 | 0.0% | 0.3% | 0.5% |
-| 11 | Santa Clara | 1 | 1 | 42.2 | 0.0% | 0.4% | 0.6% |
-| 12 | Moreirense | 1 | 1 | 42.2 | 0.0% | 0.3% | 0.4% |
-| 13 | Benfica | 1 | 1 | 42.2 | 0.0% | 0.3% | 0.4% |
-| 14 | Estoril | 1 | 1 | 41.7 | 0.0% | 0.3% | 0.4% |
-| 15 | Casa Pia | 1 | 0 | 23.1 | 0.0% | 0.0% | 59.7% |
-| 16 | Rio Ave | 1 | 0 | 23.1 | 0.0% | 0.0% | 59.7% |
-| 17 | Guimaraes | 1 | 0 | 19.6 | 0.0% | 0.0% | 85.7% |
-| 18 | Alverca | 1 | 0 | 17.5 | 0.0% | 0.0% | 92.7% |
+| 1 | Villarreal | 1 | 1 | 33.6 | 57.5% | 92.5% | 1.1% |
+| 2 | Santander | 1 | 1 | 27.4 | 12.2% | 61.7% | 11.8% |
+| 3 | Alaves | 1 | 3 | 26.2 | 8.5% | 51.6% | 15.8% |
+| 4 | Espanyol | 1 | 3 | 25.1 | 6.0% | 43.5% | 20.9% |
+| 5 | Sevilla | 1 | 3 | 24.5 | 4.3% | 37.8% | 26.6% |
+| 6 | Rayo Vallecano | 1 | 0 | 24.1 | 4.3% | 36.0% | 27.7% |
+| 7 | Elche | 1 | 1 | 24.0 | 4.3% | 34.3% | 28.2% |
+| 8 | Getafe | 1 | 0 | 21.2 | 1.2% | 16.7% | 49.8% |
+| 9 | Levante | 1 | 0 | 21.2 | 1.4% | 17.6% | 50.6% |
+| 10 | Dep. A Coruna | 1 | 1 | 18.9 | 0.4% | 8.2% | 67.4% |
 
-### Upcoming fixtures (200 unplayed)
+### Upcoming fixtures (85 unplayed)
 
 | Fixture | Home | Draw | Away | Over 2.5 | BTTS | Likeliest |
 |---|---:|---:|---:|---:|---:|---:|
-| Academico Viseu v Alverca | 83.8% | 12.9% | 3.3% | 48.4% | 22.2% | 2-0 |
-| Nacional v Alverca | 83.8% | 12.9% | 3.3% | 48.4% | 22.2% | 2-0 |
-| Arouca v Alverca | 79.3% | 19.7% | 1.0% | 24.3% | 3.9% | 1-0 |
-| Academico Viseu v Guimaraes | 78.6% | 17.3% | 4.2% | 37.3% | 19.1% | 1-0 |
-| Arouca v Benfica | 78.6% | 17.3% | 4.2% | 37.3% | 19.1% | 1-0 |
-| Arouca v Estrela | 78.6% | 17.3% | 4.2% | 37.3% | 19.1% | 1-0 |
-| Arouca v Moreirense | 78.6% | 17.3% | 4.2% | 37.3% | 19.1% | 1-0 |
-| Arouca v Santa Clara | 78.6% | 17.3% | 4.2% | 37.3% | 19.1% | 1-0 |
-| Benfica v Alverca | 77.5% | 17.2% | 5.3% | 40.9% | 24.2% | 1-0 |
-| Estrela v Alverca | 77.5% | 17.2% | 5.3% | 40.9% | 24.2% | 1-0 |
-| Moreirense v Alverca | 77.5% | 17.2% | 5.3% | 40.9% | 24.2% | 1-0 |
-| Famalicao v Alverca | 74.7% | 21.2% | 4.2% | 28.3% | 14.6% | 1-0 |
-| Gil Vicente v Alverca | 73.8% | 24.8% | 1.4% | 18.3% | 4.1% | 1-0 |
-| Maritimo v Alverca | 73.8% | 24.8% | 1.4% | 18.3% | 4.1% | 1-0 |
-| Arouca v Guimaraes | 73.1% | 25.8% | 1.2% | 17.0% | 3.2% | 1-0 |
-| Academico Viseu v Rio Ave | 72.2% | 21.8% | 6.0% | 30.7% | 19.9% | 1-0 |
-| Gil Vicente v Benfica | 72.2% | 21.8% | 6.0% | 30.7% | 19.9% | 1-0 |
-| Gil Vicente v Estrela | 72.2% | 21.8% | 6.0% | 30.7% | 19.9% | 1-0 |
-| Gil Vicente v Moreirense | 72.2% | 21.8% | 6.0% | 30.7% | 19.9% | 1-0 |
-| Gil Vicente v Santa Clara | 72.2% | 21.8% | 6.0% | 30.7% | 19.9% | 1-0 |
-| Academico Viseu v Casa Pia | 72.2% | 21.8% | 6.0% | 30.7% | 20.0% | 1-0 |
-| Maritimo v Benfica | 72.2% | 21.8% | 6.0% | 30.7% | 20.0% | 1-0 |
-| Maritimo v Moreirense | 72.2% | 21.8% | 6.0% | 30.7% | 20.0% | 1-0 |
-| Maritimo v Santa Clara | 72.2% | 21.8% | 6.0% | 30.7% | 20.0% | 1-0 |
-| Maritimo v Estrela | 72.2% | 21.8% | 6.0% | 30.7% | 20.0% | 1-0 |
-| Arouca v Academico Viseu | 71.8% | 21.9% | 6.3% | 30.9% | 20.6% | 1-0 |
-| Arouca v Nacional | 71.8% | 21.9% | 6.3% | 30.9% | 20.6% | 1-0 |
-| Arouca v Sp Braga | 71.8% | 21.9% | 6.3% | 30.9% | 20.6% | 1-0 |
-| Arouca v Sp Lisbon | 71.8% | 21.9% | 6.3% | 30.9% | 20.6% | 1-0 |
-| Benfica v Guimaraes | 71.8% | 21.9% | 6.3% | 30.9% | 20.6% | 1-0 |
-| Estrela v Guimaraes | 71.8% | 21.9% | 6.3% | 30.9% | 20.6% | 1-0 |
-| Moreirense v Guimaraes | 71.8% | 21.9% | 6.3% | 30.9% | 20.6% | 1-0 |
-| Arouca v Estoril | 68.6% | 26.6% | 4.8% | 20.4% | 12.2% | 1-0 |
-| Famalicao v Guimaraes | 68.6% | 26.6% | 4.8% | 20.4% | 12.2% | 1-0 |
-| Estoril v Alverca | 68.0% | 26.0% | 6.1% | 22.9% | 15.7% | 1-0 |
-| Arouca v Rio Ave | 67.3% | 31.1% | 1.6% | 12.5% | 3.3% | 1-0 |
-| Gil Vicente v Guimaraes | 67.3% | 31.1% | 1.6% | 12.5% | 3.3% | 1-0 |
-| Arouca v Casa Pia | 67.3% | 31.1% | 1.6% | 12.5% | 3.3% | 1-0 |
-| Maritimo v Guimaraes | 67.3% | 31.1% | 1.6% | 12.5% | 3.3% | 1-0 |
-| Benfica v Rio Ave | 64.9% | 26.4% | 8.7% | 25.5% | 21.3% | 1-0 |
+| Villarreal v Levante | 72.4% | 15.5% | 12.1% | 70.6% | 58.8% | 2-1 |
+| Villarreal v Dep. A Coruna | 70.4% | 19.0% | 10.6% | 49.5% | 40.4% | 2-0 |
+| Villarreal v Sevilla | 69.9% | 16.9% | 13.2% | 66.6% | 56.9% | 2-0 |
+| Villarreal v Elche | 68.5% | 17.0% | 14.5% | 69.1% | 60.2% | 2-1 |
+| Villarreal v Espanyol | 66.8% | 18.5% | 14.7% | 61.9% | 54.7% | 2-0 |
+| Villarreal v Alaves | 66.2% | 18.2% | 15.6% | 65.1% | 58.0% | 2-1 |
+| Villarreal v Santander | 66.2% | 16.3% | 17.5% | 79.1% | 71.0% | 2-1 |
+| Villarreal v Getafe | 63.1% | 22.7% | 14.2% | 43.2% | 40.2% | 1-0 |
+| Santander v Levante | 62.5% | 18.3% | 19.2% | 72.0% | 66.2% | 2-1 |
+| Santander v Dep. A Coruna | 62.4% | 21.7% | 16.0% | 50.1% | 46.9% | 1-0 |
+| Villarreal v Rayo Vallecano | 61.8% | 21.2% | 17.0% | 53.7% | 50.5% | 1-0 |
+| Santander v Sevilla | 60.0% | 19.4% | 20.6% | 68.3% | 64.1% | 2-1 |
+| Santander v Elche | 58.0% | 19.4% | 22.5% | 71.1% | 67.3% | 2-1 |
+| Santander v Espanyol | 56.9% | 20.8% | 22.3% | 63.9% | 61.6% | 2-1 |
+| Santander v Alaves | 55.8% | 20.4% | 23.7% | 67.4% | 64.9% | 2-1 |
+| Santander v Getafe | 54.7% | 24.7% | 20.6% | 44.7% | 46.1% | 1-0 |
+| Alaves v Levante | 53.8% | 23.0% | 23.2% | 54.3% | 54.6% | 1-1 |
+| Alaves v Dep. A Coruna | 53.4% | 27.8% | 18.8% | 33.3% | 36.3% | 1-0 |
+| Elche v Dep. A Coruna | 53.4% | 27.1% | 19.5% | 36.0% | 38.9% | 1-0 |
+| Elche v Levante | 53.3% | 22.5% | 24.1% | 57.6% | 57.6% | 1-1 |
+| Rayo Vallecano v Levante | 52.4% | 25.3% | 22.2% | 44.0% | 46.4% | 1-0 |
+| Santander v Rayo Vallecano | 52.0% | 23.0% | 25.0% | 56.2% | 56.9% | 1-1 |
+| Alaves v Sevilla | 51.4% | 24.2% | 24.4% | 50.5% | 52.3% | 1-1 |
+| Rayo Vallecano v Dep. A Coruna | 51.2% | 30.9% | 17.9% | 25.4% | 29.6% | 1-0 |
+| Elche v Sevilla | 51.0% | 23.6% | 25.4% | 53.8% | 55.2% | 1-1 |
+| Espanyol v Dep. A Coruna | 50.7% | 29.5% | 19.8% | 29.7% | 34.1% | 1-0 |
+| Sevilla v Dep. A Coruna | 50.2% | 28.8% | 21.0% | 32.3% | 36.8% | 1-0 |
+| Rayo Vallecano v Sevilla | 50.2% | 26.6% | 23.2% | 40.5% | 44.1% | 1-0 |
+| Sevilla v Levante | 50.0% | 23.9% | 26.2% | 53.4% | 55.2% | 1-1 |
+| Levante v Dep. A Coruna | 49.8% | 28.2% | 22.0% | 34.8% | 39.2% | 1-0 |
+| Alaves v Elche | 49.7% | 23.9% | 26.4% | 53.6% | 55.4% | 1-1 |
+| Espanyol v Sevilla | 48.8% | 25.5% | 25.7% | 46.3% | 49.5% | 1-0 |
+| Alaves v Espanyol | 48.7% | 25.5% | 25.8% | 46.3% | 49.6% | 1-0 |
+| Rayo Vallecano v Elche | 48.7% | 26.2% | 25.1% | 43.3% | 47.0% | 1-0 |
+| Elche v Espanyol | 48.3% | 24.9% | 26.9% | 49.6% | 52.4% | 1-1 |
+| Rayo Vallecano v Espanyol | 47.5% | 28.1% | 24.4% | 36.6% | 41.6% | 1-0 |
+| Elche v Alaves | 47.2% | 24.3% | 28.5% | 53.2% | 55.6% | 1-1 |
+| Espanyol v Elche | 47.1% | 25.1% | 27.8% | 49.4% | 52.5% | 1-1 |
+| Levante v Sevilla | 46.9% | 24.4% | 28.7% | 52.9% | 55.5% | 1-1 |
+| Rayo Vallecano v Alaves | 46.8% | 27.3% | 25.9% | 39.7% | 44.5% | 1-0 |
 
 ## Champions League 2026-27
 
