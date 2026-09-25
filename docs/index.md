@@ -1,6 +1,6 @@
 # Match Predictions — UCL, Premier League and La Liga
 
-*Generated 2026-09-18 10:28 UTC · data through 2026-09-17*
+*Generated 2026-09-25 11:01 UTC · data through 2026-09-20*
 
 Every number below comes from a time-weighted Dixon-Coles model fitted only on matches played before the prediction date. Method and measured accuracy are in the [README](https://github.com/Casanovaheer/match-prediction-v1-ucl-epl-and-laliga).
 
@@ -13,88 +13,88 @@ Every number below comes from a time-weighted Dixon-Coles model fitted only on m
 
 | Club | Attack | Defence | Strength | xG scored (H) | xG conceded (H) |
 |---|---:|---:|---:|---:|---:|
-| Arsenal | +0.469 | -0.767 | +1.235 | 2.07 | 0.51 |
-| Manchester City | +0.543 | -0.521 | +1.064 | 2.23 | 0.66 |
-| Hull | +0.003 | -0.850 | +0.853 | 1.30 | 0.47 |
-| Liverpool | +0.429 | -0.137 | +0.566 | 1.99 | 0.96 |
-| Manchester United | +0.427 | -0.099 | +0.527 | 1.99 | 1.00 |
-| Brighton | +0.403 | -0.121 | +0.524 | 1.94 | 0.98 |
-| Brentford | +0.324 | -0.114 | +0.438 | 1.79 | 0.99 |
-| Leeds | +0.237 | -0.196 | +0.433 | 1.64 | 0.91 |
-| Bournemouth | +0.326 | -0.097 | +0.423 | 1.80 | 1.00 |
-| Chelsea | +0.434 | +0.019 | +0.416 | 2.00 | 1.12 |
-| Nottingham Forest | +0.180 | -0.192 | +0.372 | 1.55 | 0.91 |
-| Newcastle | +0.347 | +0.013 | +0.334 | 1.84 | 1.12 |
+| Arsenal | +0.382 | -0.665 | +1.047 | 2.04 | 0.60 |
+| Manchester City | +0.556 | -0.416 | +0.972 | 2.43 | 0.77 |
+| Brighton | +0.398 | -0.178 | +0.576 | 2.08 | 0.98 |
+| Liverpool | +0.353 | -0.194 | +0.547 | 1.99 | 0.97 |
+| Hull | -0.028 | -0.541 | +0.513 | 1.36 | 0.68 |
+| Manchester United | +0.350 | -0.109 | +0.459 | 1.98 | 1.05 |
+| Brentford | +0.283 | -0.163 | +0.446 | 1.85 | 1.00 |
+| Leeds | +0.115 | -0.240 | +0.355 | 1.56 | 0.92 |
+| Bournemouth | +0.211 | -0.127 | +0.338 | 1.72 | 1.03 |
+| Newcastle | +0.310 | +0.010 | +0.300 | 1.90 | 1.19 |
+| Chelsea | +0.327 | +0.037 | +0.290 | 1.93 | 1.22 |
+| Aston Villa | +0.205 | -0.059 | +0.264 | 1.71 | 1.11 |
 
 ### Season projection
 
 | # | Club | Pl | Pts | Proj | Title | Top 4 | Relegation |
 |---:|---|---:|---:|---:|---:|---:|---:|
-| 1 | Arsenal | 4 | 12 | 82.1 | 59.2% | 99.5% | 0.0% |
-| 2 | Manchester City | 4 | 12 | 79.5 | 38.6% | 98.6% | 0.0% |
-| 3 | Hull | 4 | 8 | 65.1 | 1.3% | 56.0% | 0.0% |
-| 4 | Liverpool | 4 | 6 | 59.7 | 0.2% | 27.2% | 0.2% |
-| 5 | Brighton | 4 | 7 | 58.8 | 0.2% | 23.6% | 0.2% |
-| 6 | Leeds | 4 | 8 | 58.1 | 0.1% | 19.7% | 0.2% |
-| 7 | Chelsea | 4 | 7 | 58.1 | 0.2% | 19.7% | 0.2% |
-| 8 | Manchester United | 4 | 4 | 57.9 | 0.1% | 19.6% | 0.3% |
-| 9 | Brentford | 4 | 6 | 56.0 | 0.1% | 12.7% | 0.4% |
-| 10 | Bournemouth | 4 | 3 | 53.5 | 0.0% | 7.3% | 1.2% |
-| 11 | Nottingham Forest | 4 | 5 | 52.8 | 0.0% | 5.5% | 1.2% |
-| 12 | Newcastle | 4 | 5 | 52.2 | 0.0% | 4.9% | 1.8% |
-| 13 | Everton | 4 | 6 | 51.0 | 0.0% | 3.5% | 2.3% |
-| 14 | Aston Villa | 4 | 1 | 48.4 | 0.0% | 1.6% | 5.6% |
-| 15 | Sunderland | 4 | 4 | 44.5 | 0.0% | 0.5% | 13.8% |
-| 16 | Fulham | 4 | 1 | 41.9 | 0.0% | 0.2% | 22.7% |
-| 17 | Crystal Palace | 4 | 3 | 40.2 | 0.0% | 0.1% | 33.4% |
-| 18 | Tottenham | 4 | 2 | 38.6 | 0.0% | 0.0% | 42.2% |
-| 19 | Ipswich | 4 | 6 | 33.8 | 0.0% | 0.0% | 74.4% |
-| 20 | Coventry | 4 | 0 | 4.8 | 0.0% | 0.0% | 100.0% |
+| 1 | Manchester City | 5 | 15 | 80.9 | 59.9% | 98.9% | 0.0% |
+| 2 | Arsenal | 5 | 12 | 77.9 | 35.9% | 97.8% | 0.0% |
+| 3 | Brighton | 5 | 10 | 64.7 | 2.3% | 56.6% | 0.0% |
+| 4 | Liverpool | 5 | 9 | 62.4 | 0.9% | 41.6% | 0.0% |
+| 5 | Brentford | 5 | 9 | 59.3 | 0.4% | 25.5% | 0.1% |
+| 6 | Hull | 5 | 8 | 58.0 | 0.2% | 18.6% | 0.1% |
+| 7 | Manchester United | 5 | 5 | 56.7 | 0.1% | 16.0% | 0.3% |
+| 8 | Leeds | 5 | 9 | 56.4 | 0.1% | 13.8% | 0.2% |
+| 9 | Newcastle | 5 | 8 | 54.7 | 0.0% | 9.3% | 0.5% |
+| 10 | Chelsea | 5 | 7 | 54.6 | 0.1% | 9.3% | 0.6% |
+| 11 | Everton | 5 | 9 | 51.7 | 0.0% | 4.4% | 1.2% |
+| 12 | Bournemouth | 5 | 3 | 51.2 | 0.0% | 4.1% | 1.8% |
+| 13 | Aston Villa | 5 | 4 | 50.1 | 0.0% | 2.5% | 2.4% |
+| 14 | Nottingham Forest | 5 | 5 | 47.8 | 0.0% | 1.2% | 4.7% |
+| 15 | Sunderland | 5 | 4 | 43.7 | 0.0% | 0.2% | 12.9% |
+| 16 | Fulham | 5 | 2 | 41.6 | 0.0% | 0.1% | 19.6% |
+| 17 | Crystal Palace | 5 | 4 | 40.3 | 0.0% | 0.1% | 27.1% |
+| 18 | Tottenham | 5 | 2 | 36.7 | 0.0% | 0.0% | 49.1% |
+| 19 | Ipswich | 5 | 6 | 31.8 | 0.0% | 0.0% | 79.3% |
+| 20 | Coventry | 5 | 3 | 16.1 | 0.0% | 0.0% | 100.0% |
 
 ### Upcoming fixtures (200 unplayed)
 
 | Fixture | Home | Draw | Away | Over 2.5 | BTTS | Likeliest |
 |---|---:|---:|---:|---:|---:|---:|
-| Chelsea v Coventry | 93.3% | 6.5% | 0.2% | 55.5% | 4.6% | 2-0 |
-| Brighton v Coventry | 92.9% | 6.9% | 0.2% | 53.3% | 4.0% | 2-0 |
-| Bournemouth v Coventry | 91.3% | 8.5% | 0.2% | 48.4% | 4.0% | 2-0 |
-| Brentford v Coventry | 91.3% | 8.5% | 0.2% | 48.2% | 4.0% | 2-0 |
-| Aston Villa v Coventry | 89.1% | 10.6% | 0.3% | 42.3% | 4.0% | 2-0 |
-| Ipswich v Coventry | 86.8% | 12.6% | 0.6% | 39.7% | 6.6% | 2-0 |
-| Arsenal v Ipswich | 86.4% | 10.2% | 3.4% | 73.7% | 44.4% | 3-0 |
-| Crystal Palace v Coventry | 85.6% | 13.9% | 0.5% | 35.1% | 4.6% | 2-0 |
-| Everton v Coventry | 85.6% | 14.0% | 0.4% | 34.0% | 3.5% | 2-0 |
-| Fulham v Coventry | 84.6% | 14.9% | 0.5% | 32.6% | 3.9% | 1-0 |
-| Hull v Coventry | 83.7% | 16.1% | 0.2% | 29.0% | 1.8% | 1-0 |
-| Arsenal v Crystal Palace | 74.6% | 18.7% | 6.7% | 53.4% | 39.9% | 2-0 |
-| Brighton v Ipswich | 73.9% | 15.4% | 10.6% | 78.8% | 66.1% | 3-1 |
-| Arsenal v Tottenham | 73.5% | 19.9% | 6.6% | 48.2% | 36.1% | 2-0 |
-| Chelsea v Ipswich | 72.1% | 15.5% | 12.4% | 82.1% | 71.2% | 3-1 |
-| Hull v Ipswich | 70.8% | 21.3% | 7.9% | 47.8% | 38.5% | 2-0 |
-| Brentford v Ipswich | 70.3% | 17.3% | 12.4% | 75.7% | 65.6% | 2-1 |
-| Bournemouth v Ipswich | 70.0% | 17.3% | 12.7% | 76.0% | 66.2% | 2-1 |
-| Arsenal v Fulham | 68.7% | 22.9% | 8.4% | 44.2% | 37.0% | 2-0 |
-| Arsenal v Newcastle | 67.9% | 21.7% | 10.4% | 53.7% | 46.6% | 2-0 |
-| Arsenal v Sunderland | 67.0% | 24.6% | 8.4% | 38.8% | 33.3% | 1-0 |
-| Arsenal v Aston Villa | 66.3% | 23.4% | 10.3% | 47.3% | 41.9% | 2-0 |
-| Aston Villa v Ipswich | 65.1% | 19.6% | 15.3% | 72.4% | 65.8% | 2-1 |
-| Arsenal v Bournemouth | 63.8% | 24.3% | 11.9% | 47.9% | 44.6% | 2-0 |
-| Arsenal v Everton | 63.5% | 26.1% | 10.4% | 39.1% | 36.4% | 1-0 |
-| Arsenal v Brentford | 63.1% | 24.7% | 12.2% | 47.1% | 44.3% | 2-0 |
-| Arsenal v Nottingham Forest | 62.5% | 26.1% | 11.4% | 41.1% | 39.1% | 1-0 |
-| Everton v Ipswich | 61.9% | 22.1% | 16.0% | 63.6% | 59.7% | 1-1 |
-| Arsenal v Manchester United | 61.7% | 24.8% | 13.6% | 49.7% | 47.6% | 2-0 |
-| Arsenal v Leeds | 61.4% | 26.4% | 12.3% | 41.9% | 40.6% | 1-0 |
-| Arsenal v Brighton | 61.3% | 25.2% | 13.6% | 48.2% | 46.6% | 2-0 |
-| Arsenal v Liverpool | 60.1% | 25.6% | 14.3% | 48.0% | 47.1% | 2-0 |
-| Brighton v Crystal Palace | 59.3% | 23.2% | 17.4% | 61.7% | 59.5% | 1-1 |
-| Brighton v Tottenham | 59.0% | 24.4% | 16.6% | 56.1% | 54.8% | 1-1 |
-| Fulham v Ipswich | 57.6% | 23.1% | 19.4% | 65.0% | 63.1% | 1-1 |
-| Hull v Crystal Palace | 57.4% | 30.4% | 12.2% | 30.5% | 32.3% | 1-0 |
-| Chelsea v Crystal Palace | 57.1% | 22.9% | 20.0% | 66.3% | 64.4% | 1-1 |
-| Chelsea v Tottenham | 57.0% | 24.1% | 18.9% | 60.7% | 59.7% | 1-1 |
-| Hull v Tottenham | 56.5% | 31.9% | 11.6% | 26.5% | 28.8% | 1-0 |
-| Brentford v Crystal Palace | 55.7% | 24.9% | 19.5% | 58.5% | 58.4% | 1-1 |
+| Arsenal v Ipswich | 84.1% | 11.7% | 4.2% | 69.5% | 43.6% | 2-0 |
+| Brighton v Coventry | 83.6% | 14.1% | 2.3% | 46.2% | 19.7% | 2-0 |
+| Brentford v Coventry | 79.8% | 17.2% | 3.0% | 39.8% | 19.4% | 2-0 |
+| Chelsea v Coventry | 79.8% | 16.8% | 3.4% | 43.6% | 23.3% | 2-0 |
+| Brighton v Ipswich | 77.6% | 14.1% | 8.4% | 76.4% | 60.2% | 3-0 |
+| Bournemouth v Coventry | 77.1% | 19.3% | 3.5% | 36.3% | 19.6% | 1-0 |
+| Aston Villa v Coventry | 76.4% | 19.7% | 3.9% | 36.4% | 20.8% | 1-0 |
+| Arsenal v Tottenham | 72.8% | 19.5% | 7.7% | 51.3% | 39.8% | 2-0 |
+| Brentford v Ipswich | 72.5% | 16.8% | 10.7% | 71.4% | 59.7% | 2-0 |
+| Arsenal v Crystal Palace | 71.5% | 20.1% | 8.4% | 51.3% | 41.2% | 2-0 |
+| Hull v Coventry | 71.4% | 25.2% | 3.3% | 23.2% | 12.5% | 1-0 |
+| Everton v Coventry | 70.0% | 25.5% | 4.5% | 25.3% | 16.4% | 1-0 |
+| Chelsea v Ipswich | 69.9% | 16.9% | 13.2% | 76.8% | 67.0% | 2-1 |
+| Fulham v Coventry | 68.8% | 25.9% | 5.2% | 26.1% | 18.5% | 1-0 |
+| Bournemouth v Ipswich | 68.6% | 18.6% | 12.7% | 68.8% | 60.1% | 2-1 |
+| Crystal Palace v Coventry | 68.4% | 25.7% | 5.9% | 28.1% | 21.1% | 1-0 |
+| Arsenal v Sunderland | 67.9% | 22.4% | 9.7% | 46.7% | 40.1% | 2-0 |
+| Hull v Ipswich | 66.8% | 22.4% | 10.8% | 49.7% | 43.8% | 2-0 |
+| Aston Villa v Ipswich | 66.8% | 19.1% | 14.1% | 69.8% | 62.4% | 2-1 |
+| Arsenal v Fulham | 66.1% | 23.6% | 10.2% | 43.8% | 38.9% | 1-0 |
+| Arsenal v Newcastle | 65.1% | 22.1% | 12.8% | 55.2% | 50.1% | 2-0 |
+| Brighton v Tottenham | 64.5% | 21.4% | 14.0% | 60.4% | 55.2% | 2-0 |
+| Arsenal v Aston Villa | 64.3% | 23.3% | 12.4% | 49.9% | 45.9% | 2-0 |
+| Ipswich v Coventry | 64.2% | 27.0% | 8.8% | 31.0% | 27.9% | 1-0 |
+| Brighton v Crystal Palace | 62.8% | 21.9% | 15.3% | 60.8% | 56.7% | 1-1 |
+| Arsenal v Nottingham Forest | 62.2% | 25.6% | 12.3% | 41.9% | 40.0% | 1-0 |
+| Arsenal v Bournemouth | 61.3% | 24.9% | 13.8% | 46.9% | 45.2% | 1-0 |
+| Arsenal v Everton | 60.6% | 27.0% | 12.4% | 37.7% | 37.2% | 1-0 |
+| Arsenal v Manchester United | 59.2% | 24.9% | 15.9% | 50.4% | 49.6% | 1-1 |
+| Brighton v Sunderland | 58.8% | 23.9% | 17.3% | 56.6% | 55.2% | 1-1 |
+| Arsenal v Leeds | 58.5% | 27.3% | 14.2% | 40.0% | 40.7% | 1-0 |
+| Arsenal v Brentford | 58.3% | 26.0% | 15.7% | 46.6% | 46.7% | 1-0 |
+| Fulham v Ipswich | 58.2% | 23.6% | 18.2% | 59.0% | 57.6% | 1-1 |
+| Brentford v Crystal Palace | 57.4% | 24.4% | 18.2% | 56.0% | 55.4% | 1-1 |
+| Brighton v Fulham | 57.1% | 24.9% | 18.0% | 53.8% | 53.7% | 1-1 |
+| Chelsea v Tottenham | 56.2% | 23.5% | 20.3% | 62.0% | 61.0% | 1-1 |
+| Arsenal v Liverpool | 55.6% | 26.7% | 17.7% | 46.8% | 48.3% | 1-1 |
+| Bournemouth v Tottenham | 55.3% | 25.5% | 19.2% | 53.1% | 53.9% | 1-1 |
+| Arsenal v Brighton | 55.2% | 26.5% | 18.3% | 48.4% | 50.0% | 1-1 |
+| Brighton v Chelsea | 54.5% | 22.6% | 22.8% | 68.3% | 66.8% | 1-1 |
 
 ## La Liga 2026-27
 
@@ -102,88 +102,88 @@ Every number below comes from a time-weighted Dixon-Coles model fitted only on m
 
 | Club | Attack | Defence | Strength | xG scored (H) | xG conceded (H) |
 |---|---:|---:|---:|---:|---:|
-| Barcelona | +0.838 | -0.368 | +1.206 | 3.41 | 0.75 |
-| Real Madrid | +0.578 | -0.374 | +0.952 | 2.63 | 0.75 |
-| Atletico Madrid | +0.391 | -0.220 | +0.610 | 2.18 | 0.87 |
-| Villarreal | +0.423 | -0.032 | +0.455 | 2.25 | 1.05 |
-| Real Betis | +0.229 | -0.181 | +0.409 | 1.85 | 0.91 |
-| Deportivo La Coruna | +0.180 | -0.016 | +0.196 | 1.76 | 1.07 |
-| Athletic Bilbao | +0.048 | -0.115 | +0.163 | 1.55 | 0.97 |
-| Celta Vigo | +0.028 | -0.104 | +0.132 | 1.51 | 0.98 |
-| Alaves | +0.062 | -0.057 | +0.120 | 1.57 | 1.03 |
-| Rayo Vallecano | +0.011 | -0.069 | +0.080 | 1.49 | 1.02 |
-| Real Sociedad | +0.152 | +0.086 | +0.066 | 1.72 | 1.19 |
-| Sevilla | +0.028 | -0.036 | +0.064 | 1.51 | 1.05 |
+| Barcelona | +0.843 | -0.370 | +1.214 | 3.41 | 0.75 |
+| Real Madrid | +0.577 | -0.361 | +0.938 | 2.61 | 0.75 |
+| Atletico Madrid | +0.408 | -0.241 | +0.649 | 2.21 | 0.85 |
+| Villarreal | +0.438 | -0.029 | +0.467 | 2.27 | 1.05 |
+| Real Betis | +0.227 | -0.201 | +0.428 | 1.84 | 0.88 |
+| Celta Vigo | +0.098 | -0.146 | +0.243 | 1.62 | 0.93 |
+| Deportivo La Coruna | +0.128 | -0.065 | +0.193 | 1.67 | 1.01 |
+| Athletic Bilbao | +0.012 | -0.152 | +0.164 | 1.48 | 0.93 |
+| Alaves | +0.030 | -0.097 | +0.127 | 1.51 | 0.98 |
+| Real Sociedad | +0.207 | +0.095 | +0.112 | 1.80 | 1.19 |
+| Rayo Vallecano | +0.004 | -0.073 | +0.077 | 1.47 | 1.00 |
+| Sevilla | +0.032 | -0.024 | +0.056 | 1.51 | 1.05 |
 
 ### Season projection
 
 | # | Club | Pl | Pts | Proj | Title | Top 4 | Relegation |
 |---:|---|---:|---:|---:|---:|---:|---:|
-| 1 | Barcelona | 6 | 18 | 93.1 | 89.4% | 100.0% | 0.0% |
-| 2 | Real Madrid | 6 | 15 | 81.9 | 10.1% | 99.5% | 0.0% |
-| 3 | Atletico Madrid | 6 | 13 | 69.6 | 0.4% | 83.0% | 0.0% |
-| 4 | Real Betis | 6 | 15 | 66.4 | 0.1% | 65.9% | 0.0% |
-| 5 | Villarreal | 6 | 5 | 58.7 | 0.0% | 22.1% | 0.2% |
-| 6 | Sevilla | 6 | 13 | 53.8 | 0.0% | 7.1% | 1.3% |
-| 7 | Deportivo La Coruna | 6 | 9 | 52.6 | 0.0% | 5.4% | 2.2% |
-| 8 | Athletic Bilbao | 5 | 7 | 52.6 | 0.0% | 5.8% | 2.2% |
-| 9 | Alaves | 6 | 10 | 51.3 | 0.0% | 3.8% | 3.1% |
-| 10 | Rayo Vallecano | 6 | 7 | 48.9 | 0.0% | 1.9% | 6.6% |
-| 11 | Real Sociedad | 6 | 7 | 48.9 | 0.0% | 1.8% | 6.9% |
-| 12 | Espanyol | 6 | 7 | 47.4 | 0.0% | 1.2% | 8.3% |
-| 13 | Levante | 5 | 5 | 45.9 | 0.0% | 0.8% | 14.0% |
-| 14 | Celta Vigo | 6 | 4 | 45.2 | 0.0% | 0.7% | 14.6% |
-| 15 | Santander | 6 | 7 | 44.8 | 0.0% | 0.4% | 18.4% |
-| 16 | Osasuna | 6 | 7 | 42.9 | 0.0% | 0.3% | 26.1% |
-| 17 | Valencia | 6 | 4 | 42.3 | 0.0% | 0.2% | 27.8% |
-| 18 | Getafe | 6 | 5 | 41.1 | 0.0% | 0.1% | 31.8% |
-| 19 | Elche | 6 | 2 | 40.5 | 0.0% | 0.1% | 37.4% |
-| 20 | Malaga | 6 | 3 | 23.9 | 0.0% | 0.0% | 98.9% |
+| 1 | Barcelona | 7 | 21 | 93.9 | 93.4% | 100.0% | 0.0% |
+| 2 | Real Madrid | 7 | 15 | 80.1 | 5.9% | 98.9% | 0.0% |
+| 3 | Atletico Madrid | 7 | 16 | 72.5 | 0.6% | 90.1% | 0.0% |
+| 4 | Real Betis | 7 | 16 | 66.7 | 0.1% | 65.8% | 0.0% |
+| 5 | Villarreal | 7 | 8 | 59.6 | 0.0% | 22.3% | 0.2% |
+| 6 | Sevilla | 7 | 13 | 53.1 | 0.0% | 4.4% | 1.4% |
+| 7 | Real Sociedad | 7 | 10 | 52.5 | 0.0% | 3.9% | 1.9% |
+| 8 | Deportivo La Coruna | 7 | 10 | 52.0 | 0.0% | 3.6% | 1.8% |
+| 9 | Athletic Bilbao | 6 | 8 | 52.0 | 0.0% | 3.7% | 2.2% |
+| 10 | Alaves | 7 | 11 | 51.3 | 0.0% | 3.0% | 2.0% |
+| 11 | Celta Vigo | 7 | 7 | 49.3 | 0.0% | 1.7% | 4.0% |
+| 12 | Rayo Vallecano | 7 | 8 | 48.4 | 0.0% | 1.2% | 5.7% |
+| 13 | Levante | 6 | 5 | 45.1 | 0.0% | 0.4% | 14.1% |
+| 14 | Espanyol | 7 | 7 | 44.3 | 0.0% | 0.2% | 14.7% |
+| 15 | Elche | 7 | 5 | 44.3 | 0.0% | 0.3% | 16.0% |
+| 16 | Osasuna | 7 | 8 | 42.8 | 0.0% | 0.1% | 21.9% |
+| 17 | Getafe | 7 | 8 | 42.4 | 0.0% | 0.1% | 21.6% |
+| 18 | Valencia | 7 | 4 | 40.8 | 0.0% | 0.1% | 31.7% |
+| 19 | Santander | 7 | 7 | 36.4 | 0.0% | 0.0% | 61.5% |
+| 20 | Malaga | 7 | 3 | 22.1 | 0.0% | 0.0% | 99.4% |
 
 ### Upcoming fixtures (200 unplayed)
 
 | Fixture | Home | Draw | Away | Over 2.5 | BTTS | Likeliest |
 |---|---:|---:|---:|---:|---:|---:|
-| Barcelona v Malaga | 93.5% | 5.1% | 1.3% | 74.8% | 27.1% | 3-0 |
-| Barcelona v Elche | 89.8% | 6.7% | 3.5% | 85.8% | 55.2% | 3-0 |
-| Barcelona v Osasuna | 88.3% | 7.9% | 3.8% | 80.1% | 49.6% | 3-0 |
-| Barcelona v Levante | 87.9% | 7.8% | 4.3% | 83.8% | 55.7% | 3-0 |
-| Barcelona v Real Sociedad | 87.1% | 8.2% | 4.7% | 83.6% | 57.0% | 3-0 |
-| Barcelona v Valencia | 86.1% | 9.3% | 4.5% | 75.2% | 47.4% | 3-0 |
-| Barcelona v Sevilla | 84.8% | 9.8% | 5.3% | 77.0% | 51.9% | 3-0 |
-| Barcelona v Espanyol | 84.4% | 10.2% | 5.4% | 75.1% | 50.2% | 3-0 |
-| Barcelona v Alaves | 83.7% | 10.4% | 5.9% | 76.4% | 52.9% | 3-0 |
-| Barcelona v Deportivo La Coruna | 83.4% | 10.3% | 6.3% | 79.7% | 57.3% | 3-0 |
-| Barcelona v Celta Vigo | 82.5% | 11.2% | 6.3% | 73.8% | 51.4% | 3-0 |
-| Barcelona v Getafe | 79.8% | 14.5% | 5.7% | 53.9% | 34.1% | 2-0 |
-| Barcelona v Villarreal | 78.5% | 12.1% | 9.4% | 82.1% | 65.8% | 3-1 |
-| Atletico Madrid v Santander | 77.9% | 11.7% | 10.4% | 87.0% | 72.5% | 3-1 |
-| Barcelona v Real Betis | 76.4% | 13.9% | 9.7% | 73.0% | 57.6% | 2-0 |
-| Real Betis v Malaga | 74.9% | 18.6% | 6.5% | 41.5% | 27.9% | 1-0 |
-| Atletico Madrid v Elche | 71.7% | 16.2% | 12.0% | 68.0% | 56.8% | 2-0 |
-| Barcelona v Atletico Madrid | 71.4% | 15.6% | 13.0% | 73.9% | 62.8% | 2-1 |
-| Deportivo La Coruna v Malaga | 71.2% | 20.3% | 8.5% | 40.9% | 31.3% | 1-0 |
-| Real Betis v Santander | 69.8% | 15.0% | 15.2% | 82.1% | 72.3% | 3-1 |
-| Atletico Madrid v Levante | 68.9% | 17.5% | 13.6% | 65.8% | 56.8% | 2-0 |
-| Atletico Madrid v Real Sociedad | 67.5% | 17.9% | 14.6% | 65.9% | 57.9% | 2-1 |
-| Athletic Bilbao v Malaga | 67.4% | 23.4% | 9.2% | 33.6% | 27.6% | 1-0 |
-| Atletico Madrid v Valencia | 67.3% | 19.6% | 13.1% | 54.7% | 47.7% | 2-0 |
-| Alaves v Malaga | 67.3% | 23.2% | 9.6% | 34.9% | 29.0% | 1-0 |
-| Levante v Malaga | 67.1% | 22.3% | 10.6% | 39.3% | 33.5% | 1-0 |
-| Elche v Malaga | 65.4% | 23.0% | 11.6% | 39.1% | 34.7% | 1-0 |
-| Atletico Madrid v Sevilla | 65.1% | 19.9% | 15.1% | 57.7% | 52.0% | 2-0 |
-| Atletico Madrid v Espanyol | 64.7% | 20.4% | 15.0% | 55.3% | 50.2% | 2-0 |
-| Espanyol v Malaga | 64.4% | 25.1% | 10.5% | 31.4% | 27.9% | 1-0 |
-| Atletico Madrid v Rayo Vallecano | 64.1% | 20.5% | 15.5% | 55.8% | 51.0% | 2-0 |
-| Real Betis v Elche | 64.1% | 19.7% | 16.3% | 61.2% | 55.8% | 2-0 |
-| Atletico Madrid v Alaves | 63.4% | 20.4% | 16.2% | 57.4% | 52.8% | 2-0 |
-| Real Betis v Osasuna | 62.7% | 21.3% | 16.0% | 53.2% | 49.5% | 1-0 |
-| Deportivo La Coruna v Santander | 62.6% | 16.7% | 20.7% | 83.4% | 76.8% | 2-1 |
-| Atletico Madrid v Deportivo La Coruna | 62.4% | 20.0% | 17.5% | 61.8% | 57.3% | 2-1 |
-| Atletico Madrid v Celta Vigo | 62.2% | 21.2% | 16.6% | 54.5% | 50.9% | 1-0 |
-| Atletico Madrid v Athletic Bilbao | 61.3% | 21.5% | 17.2% | 54.4% | 51.4% | 1-0 |
-| Real Betis v Levante | 61.1% | 20.8% | 18.1% | 59.2% | 55.7% | 2-1 |
-| Atletico Madrid v Getafe | 61.0% | 25.7% | 13.3% | 33.9% | 32.9% | 1-0 |
+| Barcelona v Malaga | 93.9% | 5.1% | 1.1% | 74.3% | 25.1% | 3-0 |
+| Barcelona v Elche | 88.9% | 7.2% | 3.9% | 86.0% | 57.1% | 3-0 |
+| Barcelona v Levante | 88.4% | 7.6% | 4.0% | 84.4% | 55.7% | 3-0 |
+| Barcelona v Osasuna | 88.2% | 8.1% | 3.7% | 79.8% | 49.3% | 3-0 |
+| Barcelona v Valencia | 87.0% | 8.8% | 4.1% | 77.5% | 48.5% | 3-0 |
+| Barcelona v Real Sociedad | 86.7% | 8.5% | 4.9% | 84.4% | 58.7% | 3-0 |
+| Barcelona v Espanyol | 86.0% | 9.4% | 4.6% | 77.0% | 49.8% | 3-0 |
+| Atletico Madrid v Santander | 85.8% | 8.4% | 5.8% | 89.5% | 68.2% | 4-1 |
+| Barcelona v Sevilla | 85.2% | 9.8% | 5.0% | 77.5% | 51.9% | 3-0 |
+| Barcelona v Alaves | 82.8% | 11.3% | 6.0% | 74.1% | 51.3% | 3-0 |
+| Barcelona v Deportivo La Coruna | 82.5% | 11.1% | 6.4% | 76.8% | 54.9% | 3-0 |
+| Barcelona v Celta Vigo | 80.0% | 12.7% | 7.3% | 72.6% | 53.2% | 2-0 |
+| Barcelona v Getafe | 79.3% | 15.0% | 5.6% | 53.2% | 33.9% | 2-0 |
+| Barcelona v Villarreal | 78.4% | 12.3% | 9.3% | 82.2% | 66.1% | 3-1 |
+| Real Betis v Santander | 78.3% | 12.1% | 9.6% | 84.1% | 68.5% | 3-1 |
+| Barcelona v Real Betis | 75.7% | 14.6% | 9.8% | 71.8% | 57.2% | 2-0 |
+| Real Betis v Malaga | 75.6% | 18.7% | 5.7% | 40.0% | 25.6% | 1-0 |
+| Atletico Madrid v Elche | 71.0% | 16.7% | 12.3% | 68.9% | 58.2% | 2-0 |
+| Deportivo La Coruna v Santander | 70.8% | 14.9% | 14.3% | 82.5% | 72.2% | 3-1 |
+| Deportivo La Coruna v Malaga | 70.5% | 21.8% | 7.7% | 36.5% | 27.7% | 1-0 |
+| Atletico Madrid v Levante | 70.5% | 17.2% | 12.4% | 66.7% | 56.6% | 2-0 |
+| Barcelona v Atletico Madrid | 70.2% | 16.4% | 13.4% | 73.1% | 63.0% | 2-1 |
+| Atletico Madrid v Valencia | 69.3% | 18.8% | 11.8% | 57.5% | 48.8% | 2-0 |
+| Elche v Malaga | 68.9% | 21.7% | 9.4% | 40.4% | 33.1% | 1-0 |
+| Levante v Malaga | 67.9% | 22.6% | 9.5% | 38.3% | 31.9% | 1-0 |
+| Athletic Bilbao v Santander | 67.8% | 16.6% | 15.5% | 76.7% | 68.0% | 2-1 |
+| Atletico Madrid v Espanyol | 67.7% | 19.4% | 12.8% | 57.3% | 49.9% | 2-0 |
+| Atletico Madrid v Real Sociedad | 67.6% | 18.1% | 14.4% | 67.3% | 59.3% | 2-1 |
+| Alaves v Malaga | 67.2% | 24.3% | 8.5% | 31.8% | 26.0% | 1-0 |
+| Alaves v Santander | 67.2% | 16.6% | 16.2% | 78.4% | 70.0% | 2-1 |
+| Athletic Bilbao v Malaga | 67.2% | 24.6% | 8.2% | 30.4% | 24.6% | 1-0 |
+| Atletico Madrid v Sevilla | 66.4% | 19.8% | 13.9% | 58.3% | 51.8% | 2-0 |
+| Elche v Santander | 65.8% | 15.6% | 18.6% | 86.8% | 79.2% | 3-1 |
+| Levante v Santander | 65.0% | 16.0% | 18.9% | 85.2% | 77.8% | 3-1 |
+| Atletico Madrid v Rayo Vallecano | 64.9% | 20.7% | 14.4% | 55.4% | 50.2% | 2-0 |
+| Espanyol v Malaga | 64.1% | 26.0% | 10.0% | 30.2% | 27.0% | 1-0 |
+| Atletico Madrid v Alaves | 63.4% | 21.3% | 15.4% | 54.8% | 50.7% | 2-0 |
+| Real Betis v Osasuna | 62.6% | 22.0% | 15.4% | 52.0% | 48.7% | 1-0 |
+| Atletico Madrid v Deportivo La Coruna | 62.6% | 20.9% | 16.5% | 58.4% | 54.3% | 2-0 |
+| Real Betis v Elche | 62.4% | 20.5% | 17.1% | 61.3% | 57.0% | 2-1 |
 
 ## Champions League 2026-27
 
