@@ -1,6 +1,6 @@
 # Match Predictions — UCL, Premier League and La Liga
 
-*Generated 2026-09-25 11:01 UTC · data through 2026-09-20*
+*Generated 2026-10-02 11:46 UTC · data through 2026-09-20*
 
 Every number below comes from a time-weighted Dixon-Coles model fitted only on matches played before the prediction date. Method and measured accuracy are in the [README](https://github.com/Casanovaheer/match-prediction-v1-ucl-epl-and-laliga).
 
@@ -13,17 +13,17 @@ Every number below comes from a time-weighted Dixon-Coles model fitted only on m
 
 | Club | Attack | Defence | Strength | xG scored (H) | xG conceded (H) |
 |---|---:|---:|---:|---:|---:|
-| Arsenal | +0.382 | -0.665 | +1.047 | 2.04 | 0.60 |
+| Arsenal | +0.382 | -0.665 | +1.047 | 2.05 | 0.60 |
 | Manchester City | +0.556 | -0.416 | +0.972 | 2.43 | 0.77 |
 | Brighton | +0.398 | -0.178 | +0.576 | 2.08 | 0.98 |
 | Liverpool | +0.353 | -0.194 | +0.547 | 1.99 | 0.97 |
 | Hull | -0.028 | -0.541 | +0.513 | 1.36 | 0.68 |
 | Manchester United | +0.350 | -0.109 | +0.459 | 1.98 | 1.05 |
-| Brentford | +0.283 | -0.163 | +0.446 | 1.85 | 1.00 |
+| Brentford | +0.282 | -0.164 | +0.446 | 1.85 | 1.00 |
 | Leeds | +0.115 | -0.240 | +0.355 | 1.56 | 0.92 |
-| Bournemouth | +0.211 | -0.127 | +0.338 | 1.72 | 1.03 |
+| Bournemouth | +0.211 | -0.127 | +0.338 | 1.72 | 1.04 |
 | Newcastle | +0.310 | +0.010 | +0.300 | 1.90 | 1.19 |
-| Chelsea | +0.327 | +0.037 | +0.290 | 1.93 | 1.22 |
+| Chelsea | +0.327 | +0.037 | +0.289 | 1.93 | 1.22 |
 | Aston Villa | +0.205 | -0.059 | +0.264 | 1.71 | 1.11 |
 
 ### Season projection

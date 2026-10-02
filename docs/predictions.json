@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25 11:01 UTC",
+  "generated": "2026-10-02 11:46 UTC",
   "data_through": "2026-09-20",
   "competitions": {
     "E0": {
@@ -7,243 +7,243 @@
       "season": "2026-27",
       "as_of": "2026-09-21",
       "params": {
-        "intercept": 0.16110698160132345,
-        "home_adv": 0.17185820626284826,
-        "rho": -0.11741054583309231,
+        "intercept": 0.16125232703105494,
+        "home_adv": 0.1718584019449149,
+        "rho": -0.1174087616557587,
         "max_goals": 10
       },
       "ratings": [
         {
           "team": "Arsenal",
-          "attack": 0.3824201241727932,
-          "defence": -0.6646146543612612,
-          "strength": 1.0470347785340544,
-          "xg_scored_home": 2.0449744837579877,
-          "xg_conceded_home": 0.6044068755869004
+          "attack": 0.3823273502148476,
+          "defence": -0.6646661575125143,
+          "strength": 1.046993507727362,
+          "xg_scored_home": 2.045082394088232,
+          "xg_conceded_home": 0.604463597166633
         },
         {
           "team": "Man City",
-          "attack": 0.5558155985652525,
-          "defence": -0.4161649083731048,
-          "strength": 0.9719805069383574,
-          "xg_scored_home": 2.432162517325457,
-          "xg_conceded_home": 0.7748716108500492
+          "attack": 0.5557215865291675,
+          "defence": -0.41622402849644846,
+          "strength": 0.9719456150256159,
+          "xg_scored_home": 2.432287847641009,
+          "xg_conceded_home": 0.7749384272726979
         },
         {
           "team": "Brighton",
-          "attack": 0.3980483606480055,
-          "defence": -0.17791202453489566,
-          "strength": 0.5759603851829012,
-          "xg_scored_home": 2.0771848687418766,
-          "xg_conceded_home": 0.9833353741285465
+          "attack": 0.39795566856528625,
+          "defence": -0.1779661544445093,
+          "strength": 0.5759218230097956,
+          "xg_scored_home": 2.0772946488462676,
+          "xg_conceded_home": 0.9834250736670809
         },
         {
           "team": "Liverpool",
-          "attack": 0.3532217470435288,
-          "defence": -0.1936609104562695,
-          "strength": 0.5468826574997984,
-          "xg_scored_home": 1.9861278415139425,
-          "xg_conceded_home": 0.9679702468966594
+          "attack": 0.35312859903226645,
+          "defence": -0.1937135335253246,
+          "strength": 0.5468421325575911,
+          "xg_scored_home": 1.9862319036356646,
+          "xg_conceded_home": 0.9680600035441761
         },
         {
           "team": "Hull",
-          "attack": -0.02760371482169046,
-          "defence": -0.5409823465987951,
-          "strength": 0.5133786317771046,
-          "xg_scored_home": 1.3571154750144307,
-          "xg_conceded_home": 0.6839466475925546
+          "attack": -0.027688290937771594,
+          "defence": -0.5410922075462407,
+          "strength": 0.5134039166084691,
+          "xg_scored_home": 1.3571982140756202,
+          "xg_conceded_home": 0.6839709175158559
         },
         {
           "team": "Man United",
-          "attack": 0.34959351150993534,
-          "defence": -0.10936508707685422,
-          "strength": 0.45895859858678956,
-          "xg_scored_home": 1.9789347588949453,
-          "xg_conceded_home": 1.0531038955505347
+          "attack": 0.3495043666216267,
+          "defence": -0.10942001850730848,
+          "strength": 0.4589243851289352,
+          "xg_scored_home": 1.9790463664889726,
+          "xg_conceded_home": 1.0531991151899152
         },
         {
           "team": "Brentford",
-          "attack": 0.2825317282406661,
-          "defence": -0.16346959863555502,
-          "strength": 0.44600132687622107,
-          "xg_scored_home": 1.8505759521126948,
-          "xg_conceded_home": 0.9976401717486859
+          "attack": 0.28243765144486216,
+          "defence": -0.16352237458311383,
+          "strength": 0.445960026027976,
+          "xg_scored_home": 1.8506711931890028,
+          "xg_conceded_home": 0.997732527057355
         },
         {
           "team": "Leeds",
-          "attack": 0.11485273107921803,
-          "defence": -0.24041150339851716,
-          "strength": 0.3552642344777352,
-          "xg_scored_home": 1.5648937322068432,
-          "xg_conceded_home": 0.923758576987007
+          "attack": 0.11476086786740111,
+          "defence": -0.24047027798376788,
+          "strength": 0.355231145851169,
+          "xg_scored_home": 1.5649777346705995,
+          "xg_conceded_home": 0.9238385510087725
         },
         {
           "team": "Bournemouth",
-          "attack": 0.21146267378868627,
-          "defence": -0.12672435850731154,
-          "strength": 0.3381870322959978,
-          "xg_scored_home": 1.723621950001878,
-          "xg_conceded_home": 1.0349805384328379
+          "attack": 0.21137049436743616,
+          "defence": -0.12677862671941006,
+          "strength": 0.33814912108684625,
+          "xg_scored_home": 1.7237139278370202,
+          "xg_conceded_home": 1.0350748058733255
         },
         {
           "team": "Newcastle",
-          "attack": 0.3099162512285528,
-          "defence": 0.010212866093170054,
-          "strength": 0.29970338513538275,
-          "xg_scored_home": 1.9019533539640383,
-          "xg_conceded_home": 1.1868703060493084
+          "attack": 0.30982381511608803,
+          "defence": 0.010158223705898006,
+          "strength": 0.29966559141019,
+          "xg_scored_home": 1.9020543598775685,
+          "xg_conceded_home": 1.1869779636794355
         },
         {
           "team": "Chelsea",
-          "attack": 0.32673809552677535,
-          "defence": 0.03721922854159137,
-          "strength": 0.289518866985184,
-          "xg_scored_home": 1.9342183345432034,
-          "xg_conceded_home": 1.2193600965821496
+          "attack": 0.32664752312107354,
+          "defence": 0.037164461371116994,
+          "strength": 0.2894830617499565,
+          "xg_scored_home": 1.9343246589445913,
+          "xg_conceded_home": 1.2194705490993283
         },
         {
           "team": "Aston Villa",
-          "attack": 0.2052598752453129,
-          "defence": -0.058564295463516575,
-          "strength": 0.26382417070882946,
-          "xg_scored_home": 1.7129637597570853,
-          "xg_conceded_home": 1.1079845964835595
+          "attack": 0.20516582189993815,
+          "defence": -0.05861915173369061,
+          "strength": 0.26378497363362874,
+          "xg_scored_home": 1.7130519587056035,
+          "xg_conceded_home": 1.1080848616148833
         },
         {
           "team": "Nott'm Forest",
-          "attack": 0.058087179234883685,
-          "defence": -0.175766179450368,
-          "strength": 0.23385335868525167,
-          "xg_scored_home": 1.478535938023802,
-          "xg_conceded_home": 0.9854477250859687
+          "attack": 0.05799323983060578,
+          "defence": -0.17581932488271063,
+          "strength": 0.2338125647133164,
+          "xg_scored_home": 1.4786122349713433,
+          "xg_conceded_home": 0.9855385875523437
         },
         {
           "team": "Everton",
-          "attack": -0.011550535308702183,
-          "defence": -0.2443326082503124,
-          "strength": 0.2327820729416102,
-          "xg_scored_home": 1.379077300279861,
-          "xg_conceded_home": 0.9201435148994574
+          "attack": -0.011644092942542032,
+          "defence": -0.24438622697687817,
+          "strength": 0.23274213403433613,
+          "xg_scored_home": 1.3791489913776631,
+          "xg_conceded_home": 0.9202279205015832
         },
         {
           "team": "Fulham",
-          "attack": -0.01424285487671053,
-          "defence": -0.10830596869425185,
-          "strength": 0.09406311381754132,
-          "xg_scored_home": 1.375369377175253,
-          "xg_conceded_home": 1.0542198481037175
+          "attack": -0.014337051910132244,
+          "defence": -0.10836003535242186,
+          "strength": 0.09402298344228963,
+          "xg_scored_home": 1.3754399960612664,
+          "xg_conceded_home": 1.0543160803883236
         },
         {
           "team": "Sunderland",
-          "attack": 0.006062056295637296,
-          "defence": -0.05663138706635418,
-          "strength": 0.06269344336199148,
-          "xg_scored_home": 1.4035815840928125,
-          "xg_conceded_home": 1.1101283003381894
+          "attack": 0.0059621579803695035,
+          "defence": -0.056684838954935694,
+          "strength": 0.0626469969353052,
+          "xg_scored_home": 1.4036456489435074,
+          "xg_conceded_home": 1.1102303186461784
         },
         {
           "team": "West Ham",
-          "attack": 0.05903426827722792,
-          "defence": 0.05464039229866287,
-          "strength": 0.004393875978565054,
-          "xg_scored_home": 1.479936906525655,
-          "xg_conceded_home": 1.240788883747156
+          "attack": 0.05894874234864261,
+          "defence": 0.0545866418092933,
+          "strength": 0.004362100539349316,
+          "xg_scored_home": 1.4800257278755315,
+          "xg_conceded_home": 1.240902538936005
         },
         {
           "team": "Crystal Palace",
-          "attack": 0.009331186884319699,
-          "defence": 0.03545731378266366,
-          "strength": -0.02612612689834396,
-          "xg_scored_home": 1.4081775839517414,
-          "xg_conceded_home": 1.2172135795768237
+          "attack": 0.009245357908301083,
+          "defence": 0.03540471133038661,
+          "strength": -0.02615935342208553,
+          "xg_scored_home": 1.4082616717533423,
+          "xg_conceded_home": 1.2173264728233386
         },
         {
           "team": "Tottenham",
-          "attack": -0.04212359530051842,
-          "defence": 0.04932984832555239,
-          "strength": -0.09145344362607082,
-          "xg_scored_home": 1.3375526888751772,
-          "xg_conceded_home": 1.2342170851760645
+          "attack": -0.04221293300323404,
+          "defence": 0.04927457496086119,
+          "strength": -0.09148750796409523,
+          "xg_scored_home": 1.337627866008705,
+          "xg_conceded_home": 1.234328258664372
         },
         {
           "team": "Luton",
-          "attack": 0.12566290648493061,
-          "defence": 0.4207609336234616,
-          "strength": -0.295098027138531,
-          "xg_scored_home": 1.5819022749742713,
-          "xg_conceded_home": 1.7893777169077223
+          "attack": 0.12570002064522007,
+          "defence": 0.42067302170470655,
+          "strength": -0.2949730010594865,
+          "xg_scored_home": 1.5821912441547914,
+          "xg_conceded_home": 1.7894804901037518
         },
         {
           "team": "Ipswich",
-          "attack": 0.00011863551117625992,
-          "defence": 0.3773624133252951,
-          "strength": -0.37724377781411883,
-          "xg_scored_home": 1.3952642493270082,
-          "xg_conceded_home": 1.7133823424396426
+          "attack": 2.040341856212463e-05,
+          "defence": 0.3773065183805907,
+          "strength": -0.3772861149620286,
+          "xg_scored_home": 1.3953302594715717,
+          "xg_conceded_home": 1.7135356121761347
         },
         {
           "team": "Burnley",
-          "attack": -0.1695370400972743,
-          "defence": 0.24276052568591763,
-          "strength": -0.41229756578319193,
-          "xg_scored_home": 1.1775407432157097,
-          "xg_conceded_home": 1.4976055119959089
+          "attack": -0.16964436519649204,
+          "defence": 0.24270554255982973,
+          "strength": -0.41234990775632174,
+          "xg_scored_home": 1.177585744987455,
+          "xg_conceded_home": 1.4977408451943397
         },
         {
           "team": "Wolves",
-          "attack": -0.30920156426687,
-          "defence": 0.11092544048753829,
-          "strength": -0.4201270047544083,
-          "xg_scored_home": 1.0240482284432033,
-          "xg_conceded_home": 1.3126295588134014
+          "attack": -0.3092969407296015,
+          "defence": 0.11087071509552338,
+          "strength": -0.4201676558251249,
+          "xg_scored_home": 1.0240996007517367,
+          "xg_conceded_home": 1.312748514743343
         },
         {
           "team": "Watford",
-          "attack": -0.25510417059552215,
-          "defence": 0.2672809607176609,
-          "strength": -0.5223851313131831,
-          "xg_scored_home": 1.0809724117311632,
-          "xg_conceded_home": 1.534781372135436
+          "attack": -0.254288735107338,
+          "defence": 0.26808055225842503,
+          "strength": -0.522369287365763,
+          "xg_scored_home": 1.0820117002100378,
+          "xg_conceded_home": 1.536232329219126
         },
         {
           "team": "Norwich",
-          "attack": -0.33369359585218733,
-          "defence": 0.3164228257468653,
-          "strength": -0.6501164215990527,
-          "xg_scored_home": 0.9992718572366817,
-          "xg_conceded_home": 1.6120873135457405
+          "attack": -0.3322346543200002,
+          "defence": 0.31712851159230104,
+          "strength": -0.6493631659123013,
+          "xg_scored_home": 1.0008764585214611,
+          "xg_conceded_home": 1.6134598342140378
         },
         {
           "team": "Leicester",
-          "attack": -0.3813479374046816,
-          "defence": 0.2869350132938622,
-          "strength": -0.6682829506985437,
-          "xg_scored_home": 0.9527690453652705,
-          "xg_conceded_home": 1.5652444265489638
+          "attack": -0.3814327072275391,
+          "defence": 0.2868938121971303,
+          "strength": -0.6683265194246694,
+          "xg_scored_home": 0.952826948127615,
+          "xg_conceded_home": 1.5654074463743963
         },
         {
           "team": "Sheffield United",
-          "attack": -0.25367793654721116,
-          "defence": 0.5849080458995572,
-          "strength": -0.8385859824467684,
-          "xg_scored_home": 1.0825152313394604,
-          "xg_conceded_home": 2.1085806164465724
+          "attack": -0.2538351706471256,
+          "defence": 0.5848737450048359,
+          "strength": -0.8387089156519615,
+          "xg_scored_home": 1.0825025735757283,
+          "xg_conceded_home": 2.1088147758014752
         },
         {
           "team": "Southampton",
-          "attack": -0.5400590755134868,
-          "defence": 0.3888417680321417,
-          "strength": -0.9289008435456285,
-          "xg_scored_home": 0.8129433210670143,
-          "xg_conceded_home": 1.7331641902911743
+          "attack": -0.5400912308262306,
+          "defence": 0.3887925326985385,
+          "strength": -0.9288837635247691,
+          "xg_scored_home": 0.8130355025209944,
+          "xg_conceded_home": 1.7333307728731149
         },
         {
           "team": "Coventry",
-          "attack": -1.4100149091520477,
-          "defence": 0.09384825501342685,
-          "strength": -1.5038631641654745,
-          "xg_scored_home": 0.3405989064937636,
-          "xg_conceded_home": 1.2904038567350737
+          "attack": -1.410007494063688,
+          "defence": 0.0938093925498372,
+          "strength": -1.503816886613525,
+          "xg_scored_home": 0.3406510071927397,
+          "xg_conceded_home": 1.2905412700812202
         }
       ],
       "fixtures": [
@@ -575,15 +575,15 @@
           "comp": "E0",
           "unrated": [],
           "as_of": "2026-09-21",
-          "lambda_home": 1.191,
+          "lambda_home": 1.19,
           "lambda_away": 0.588,
-          "p_home": 0.4938,
-          "p_draw": 0.3372,
+          "p_home": 0.4937,
+          "p_draw": 0.3373,
           "p_away": 0.169,
           "p_over_1_5": 0.5446,
           "p_over_2_5": 0.2636,
           "p_over_3_5": 0.1053,
-          "p_btts": 0.3233,
+          "p_btts": 0.3232,
           "p_clean_sheet_home": 0.5555,
           "p_clean_sheet_away": 0.3041,
           "expected_goals": 1.778,
@@ -769,8 +769,8 @@
           "p_over_3_5": 0.2218,
           "p_btts": 0.4974,
           "p_clean_sheet_home": 0.3486,
-          "p_clean_sheet_away": 0.2595,
-          "expected_goals": 2.403,
+          "p_clean_sheet_away": 0.2596,
+          "expected_goals": 2.402,
           "top_scorelines": [
             {
               "score": "1-1",
@@ -1087,7 +1087,7 @@
           "p_draw": 0.2735,
           "p_away": 0.3666,
           "p_over_1_5": 0.8027,
-          "p_over_2_5": 0.5597,
+          "p_over_2_5": 0.5596,
           "p_over_3_5": 0.3358,
           "p_btts": 0.6037,
           "p_clean_sheet_home": 0.23,
@@ -1227,7 +1227,7 @@
           "p_over_1_5": 0.6405,
           "p_over_2_5": 0.3644,
           "p_over_3_5": 0.1713,
-          "p_btts": 0.2078,
+          "p_btts": 0.2079,
           "p_clean_sheet_home": 0.763,
           "p_clean_sheet_away": 0.1524,
           "expected_goals": 2.152,
@@ -1242,7 +1242,7 @@
             },
             {
               "score": "3-0",
-              "prob": 0.1291
+              "prob": 0.129
             },
             {
               "score": "0-0",
@@ -1407,11 +1407,11 @@
           "lambda_away": 1.078,
           "p_home": 0.3127,
           "p_draw": 0.3331,
-          "p_away": 0.3542,
+          "p_away": 0.3543,
           "p_over_1_5": 0.6298,
           "p_over_2_5": 0.3436,
           "p_over_3_5": 0.1567,
-          "p_btts": 0.4322,
+          "p_btts": 0.4321,
           "p_clean_sheet_home": 0.3403,
           "p_clean_sheet_away": 0.3689,
           "expected_goals": 2.075,
@@ -2007,7 +2007,7 @@
           "p_draw": 0.1931,
           "p_away": 0.0354,
           "p_over_1_5": 0.6386,
-          "p_over_2_5": 0.3627,
+          "p_over_2_5": 0.3628,
           "p_over_3_5": 0.1701,
           "p_btts": 0.1962,
           "p_clean_sheet_home": 0.7767,
@@ -2141,10 +2141,10 @@
           "as_of": "2026-09-21",
           "lambda_home": 1.003,
           "lambda_away": 1.007,
-          "p_home": 0.3295,
+          "p_home": 0.3294,
           "p_draw": 0.3393,
           "p_away": 0.3312,
-          "p_over_1_5": 0.6127,
+          "p_over_1_5": 0.6126,
           "p_over_2_5": 0.3261,
           "p_over_3_5": 0.1447,
           "p_btts": 0.4178,
@@ -2158,7 +2158,7 @@
             },
             {
               "score": "0-0",
-              "prob": 0.1498
+              "prob": 0.1499
             },
             {
               "score": "0-1",
@@ -2743,7 +2743,7 @@
           "p_draw": 0.1721,
           "p_away": 0.0296,
           "p_over_1_5": 0.6696,
-          "p_over_2_5": 0.3976,
+          "p_over_2_5": 0.3977,
           "p_over_3_5": 0.1958,
           "p_btts": 0.1938,
           "p_clean_sheet_home": 0.7838,
@@ -2789,7 +2789,7 @@
           "p_draw": 0.2439,
           "p_away": 0.1821,
           "p_over_1_5": 0.8014,
-          "p_over_2_5": 0.5596,
+          "p_over_2_5": 0.5597,
           "p_over_3_5": 0.3358,
           "p_btts": 0.5536,
           "p_clean_sheet_home": 0.3653,
@@ -2929,7 +2929,7 @@
           "p_over_1_5": 0.6226,
           "p_over_2_5": 0.3363,
           "p_over_3_5": 0.1516,
-          "p_btts": 0.4255,
+          "p_btts": 0.4254,
           "p_clean_sheet_home": 0.3789,
           "p_clean_sheet_away": 0.3405,
           "expected_goals": 2.048,
@@ -2998,7 +2998,7 @@
             },
             {
               "score": "1-1",
-              "prob": 0.0746
+              "prob": 0.0747
             }
           ],
           "fair_odds": {
@@ -3111,7 +3111,7 @@
           "p_draw": 0.2618,
           "p_away": 0.4826,
           "p_over_1_5": 0.8077,
-          "p_over_2_5": 0.5678,
+          "p_over_2_5": 0.5677,
           "p_over_3_5": 0.3438,
           "p_btts": 0.594,
           "p_clean_sheet_home": 0.1757,
@@ -3350,7 +3350,7 @@
           "top_scorelines": [
             {
               "score": "1-1",
-              "prob": 0.1196
+              "prob": 0.1195
             },
             {
               "score": "2-1",
@@ -3434,7 +3434,7 @@
           "p_away": 0.0229,
           "p_over_1_5": 0.7223,
           "p_over_2_5": 0.4617,
-          "p_over_3_5": 0.247,
+          "p_over_3_5": 0.2471,
           "p_btts": 0.1968,
           "p_clean_sheet_home": 0.7866,
           "p_clean_sheet_away": 0.1021,
@@ -4128,7 +4128,7 @@
           "p_btts": 0.6489,
           "p_clean_sheet_home": 0.2217,
           "p_clean_sheet_away": 0.182,
-          "expected_goals": 3.211,
+          "expected_goals": 3.21,
           "top_scorelines": [
             {
               "score": "1-1",
@@ -4394,7 +4394,7 @@
           "unrated": [],
           "as_of": "2026-09-21",
           "lambda_home": 2.821,
-          "lambda_away": 1.22,
+          "lambda_away": 1.219,
           "p_home": 0.6991,
           "p_draw": 0.1692,
           "p_away": 0.1317,
@@ -4673,7 +4673,7 @@
           "lambda_away": 1.292,
           "p_home": 0.4382,
           "p_draw": 0.27,
-          "p_away": 0.2918,
+          "p_away": 0.2917,
           "p_over_1_5": 0.8011,
           "p_over_2_5": 0.5574,
           "p_over_3_5": 0.3337,
@@ -4842,7 +4842,7 @@
             }
           ],
           "fair_odds": {
-            "home": 42.67,
+            "home": 42.66,
             "draw": 5.49,
             "away": 1.26
           }
@@ -4858,17 +4858,17 @@
           "p_home": 0.0622,
           "p_draw": 0.2524,
           "p_away": 0.6854,
-          "p_over_1_5": 0.5767,
+          "p_over_1_5": 0.5768,
           "p_over_2_5": 0.2978,
           "p_over_3_5": 0.1263,
           "p_btts": 0.2273,
           "p_clean_sheet_home": 0.2051,
-          "p_clean_sheet_away": 0.7253,
+          "p_clean_sheet_away": 0.7252,
           "expected_goals": 1.906,
           "top_scorelines": [
             {
               "score": "0-1",
-              "prob": 0.2268
+              "prob": 0.2267
             },
             {
               "score": "0-2",
@@ -4905,9 +4905,9 @@
           "p_draw": 0.2483,
           "p_away": 0.6945,
           "p_over_1_5": 0.5731,
-          "p_over_2_5": 0.2947,
+          "p_over_2_5": 0.2948,
           "p_over_3_5": 0.1243,
-          "p_btts": 0.215,
+          "p_btts": 0.2151,
           "p_clean_sheet_home": 0.2031,
           "p_clean_sheet_away": 0.7408,
           "expected_goals": 1.894,
@@ -4952,7 +4952,7 @@
           "p_away": 0.7243,
           "p_over_1_5": 0.6021,
           "p_over_2_5": 0.3236,
-          "p_over_3_5": 0.143,
+          "p_over_3_5": 0.1431,
           "p_btts": 0.2137,
           "p_clean_sheet_home": 0.1806,
           "p_clean_sheet_away": 0.7488,
@@ -4999,7 +4999,7 @@
           "p_over_1_5": 0.6399,
           "p_over_2_5": 0.3619,
           "p_over_3_5": 0.1695,
-          "p_btts": 0.2567,
+          "p_btts": 0.2568,
           "p_clean_sheet_home": 0.1671,
           "p_clean_sheet_away": 0.7022,
           "expected_goals": 2.143,
@@ -5040,14 +5040,14 @@
           "lambda_home": 0.353,
           "lambda_away": 1.303,
           "p_home": 0.0894,
-          "p_draw": 0.3101,
+          "p_draw": 0.31,
           "p_away": 0.6006,
           "p_over_1_5": 0.5031,
           "p_over_2_5": 0.2311,
           "p_over_3_5": 0.0866,
           "p_btts": 0.2268,
-          "p_clean_sheet_home": 0.2719,
-          "p_clean_sheet_away": 0.7027,
+          "p_clean_sheet_home": 0.2718,
+          "p_clean_sheet_away": 0.7026,
           "expected_goals": 1.655,
           "top_scorelines": [
             {
@@ -5093,7 +5093,7 @@
           "p_over_3_5": 0.0711,
           "p_btts": 0.1773,
           "p_clean_sheet_home": 0.2793,
-          "p_clean_sheet_away": 0.7659,
+          "p_clean_sheet_away": 0.7658,
           "expected_goals": 1.542,
           "top_scorelines": [
             {
@@ -5139,7 +5139,7 @@
           "p_over_3_5": 0.0758,
           "p_btts": 0.199,
           "p_clean_sheet_home": 0.2802,
-          "p_clean_sheet_away": 0.7367,
+          "p_clean_sheet_away": 0.7366,
           "expected_goals": 1.578,
           "top_scorelines": [
             {
@@ -5148,7 +5148,7 @@
             },
             {
               "score": "0-0",
-              "prob": 0.2159
+              "prob": 0.2158
             },
             {
               "score": "0-2",
@@ -5190,7 +5190,7 @@
           "top_scorelines": [
             {
               "score": "0-1",
-              "prob": 0.2035
+              "prob": 0.2034
             },
             {
               "score": "0-0",
@@ -5273,7 +5273,7 @@
           "p_draw": 0.2054,
           "p_away": 0.7525,
           "p_over_1_5": 0.6322,
-          "p_over_2_5": 0.3551,
+          "p_over_2_5": 0.3552,
           "p_over_3_5": 0.1647,
           "p_btts": 0.213,
           "p_clean_sheet_home": 0.1593,
@@ -5348,7 +5348,7 @@
             }
           ],
           "fair_odds": {
-            "home": 45.83,
+            "home": 45.82,
             "draw": 7.02,
             "away": 1.2
           }
@@ -5364,7 +5364,7 @@
           "p_home": 0.0467,
           "p_draw": 0.2095,
           "p_away": 0.7438,
-          "p_over_1_5": 0.6372,
+          "p_over_1_5": 0.6373,
           "p_over_2_5": 0.36,
           "p_over_3_5": 0.1682,
           "p_btts": 0.2287,
@@ -5415,7 +5415,7 @@
           "p_over_3_5": 0.162,
           "p_btts": 0.2497,
           "p_clean_sheet_home": 0.1722,
-          "p_clean_sheet_away": 0.7089,
+          "p_clean_sheet_away": 0.7088,
           "expected_goals": 2.103,
           "top_scorelines": [
             {
@@ -5501,9 +5501,9 @@
           "lambda_away": 1.298,
           "p_home": 0.0813,
           "p_draw": 0.309,
-          "p_away": 0.6097,
-          "p_over_1_5": 0.4912,
-          "p_over_2_5": 0.2218,
+          "p_away": 0.6096,
+          "p_over_1_5": 0.4913,
+          "p_over_2_5": 0.2219,
           "p_over_3_5": 0.0816,
           "p_btts": 0.2098,
           "p_clean_sheet_home": 0.273,
@@ -5549,7 +5549,7 @@
           "p_draw": 0.3243,
           "p_away": 0.5795,
           "p_over_1_5": 0.484,
-          "p_over_2_5": 0.2153,
+          "p_over_2_5": 0.2154,
           "p_over_3_5": 0.0781,
           "p_btts": 0.2241,
           "p_clean_sheet_home": 0.2902,
@@ -5562,7 +5562,7 @@
             },
             {
               "score": "0-0",
-              "prob": 0.2135
+              "prob": 0.2134
             },
             {
               "score": "0-2",
@@ -5644,7 +5644,7 @@
           "p_over_2_5": 0.5359,
           "p_over_3_5": 0.3131,
           "p_btts": 0.584,
-          "p_clean_sheet_home": 0.2243,
+          "p_clean_sheet_home": 0.2244,
           "p_clean_sheet_away": 0.265,
           "expected_goals": 2.823,
           "top_scorelines": [
@@ -5780,7 +5780,7 @@
           "p_away": 0.5095,
           "p_over_1_5": 0.8121,
           "p_over_2_5": 0.5748,
-          "p_over_3_5": 0.3507,
+          "p_over_3_5": 0.3508,
           "p_btts": 0.5919,
           "p_clean_sheet_home": 0.1633,
           "p_clean_sheet_away": 0.3077,
@@ -5870,7 +5870,7 @@
           "p_home": 0.6841,
           "p_draw": 0.2568,
           "p_away": 0.0591,
-          "p_over_1_5": 0.5586,
+          "p_over_1_5": 0.5587,
           "p_over_2_5": 0.2812,
           "p_over_3_5": 0.1159,
           "p_btts": 0.2109,
@@ -5880,7 +5880,7 @@
           "top_scorelines": [
             {
               "score": "1-0",
-              "prob": 0.2362
+              "prob": 0.2361
             },
             {
               "score": "2-0",
@@ -6270,7 +6270,7 @@
           "fair_odds": {
             "home": 3.09,
             "draw": 3.32,
-            "away": 2.66
+            "away": 2.67
           }
         },
         {
@@ -6741,7 +6741,7 @@
           "as_of": "2026-09-21",
           "lambda_home": 0.803,
           "lambda_away": 0.895,
-          "p_home": 0.2887,
+          "p_home": 0.2886,
           "p_draw": 0.3711,
           "p_away": 0.3402,
           "p_over_1_5": 0.5216,
@@ -6749,7 +6749,7 @@
           "p_over_3_5": 0.0929,
           "p_btts": 0.3419,
           "p_clean_sheet_home": 0.4086,
-          "p_clean_sheet_away": 0.448,
+          "p_clean_sheet_away": 0.4481,
           "expected_goals": 1.698,
           "top_scorelines": [
             {
@@ -6796,7 +6796,7 @@
           "p_btts": 0.4419,
           "p_clean_sheet_home": 0.3562,
           "p_clean_sheet_away": 0.3381,
-          "expected_goals": 2.117,
+          "expected_goals": 2.116,
           "top_scorelines": [
             {
               "score": "1-1",
@@ -7071,7 +7071,7 @@
           "p_over_3_5": 0.207,
           "p_btts": 0.4631,
           "p_clean_sheet_home": 0.4139,
-          "p_clean_sheet_away": 0.2348,
+          "p_clean_sheet_away": 0.2349,
           "expected_goals": 2.331,
           "top_scorelines": [
             {
@@ -7206,7 +7206,7 @@
           "p_away": 0.3722,
           "p_over_1_5": 0.7306,
           "p_over_2_5": 0.4598,
-          "p_over_3_5": 0.2455,
+          "p_over_3_5": 0.2454,
           "p_btts": 0.5264,
           "p_clean_sheet_home": 0.2719,
           "p_clean_sheet_away": 0.2977,
@@ -7343,7 +7343,7 @@
           "p_draw": 0.2593,
           "p_away": 0.0522,
           "p_over_1_5": 0.5354,
-          "p_over_2_5": 0.2608,
+          "p_over_2_5": 0.2609,
           "p_over_3_5": 0.1036,
           "p_btts": 0.1846,
           "p_clean_sheet_home": 0.7731,
@@ -7360,7 +7360,7 @@
             },
             {
               "score": "0-0",
-              "prob": 0.1785
+              "prob": 0.1784
             },
             {
               "score": "3-0",
@@ -7368,7 +7368,7 @@
             },
             {
               "score": "1-1",
-              "prob": 0.0741
+              "prob": 0.0742
             }
           ],
           "fair_odds": {
@@ -7431,7 +7431,7 @@
           "as_of": "2026-09-21",
           "lambda_home": 0.801,
           "lambda_away": 1.026,
-          "p_home": 0.2621,
+          "p_home": 0.262,
           "p_draw": 0.354,
           "p_away": 0.3839,
           "p_over_1_5": 0.5604,
@@ -7444,7 +7444,7 @@
           "top_scorelines": [
             {
               "score": "0-0",
-              "prob": 0.1765
+              "prob": 0.1766
             },
             {
               "score": "0-1",
@@ -7844,7 +7844,7 @@
           "unrated": [],
           "as_of": "2026-09-21",
           "lambda_home": 0.698,
-          "lambda_away": 1.003,
+          "lambda_away": 1.002,
           "p_home": 0.2331,
           "p_draw": 0.3645,
           "p_away": 0.4024,
@@ -7852,13 +7852,13 @@
           "p_over_2_5": 0.243,
           "p_over_3_5": 0.0933,
           "p_btts": 0.3331,
-          "p_clean_sheet_home": 0.3669,
+          "p_clean_sheet_home": 0.367,
           "p_clean_sheet_away": 0.4975,
           "expected_goals": 1.701,
           "top_scorelines": [
             {
               "score": "0-0",
-              "prob": 0.1975
+              "prob": 0.1976
             },
             {
               "score": "0-1",
@@ -7944,7 +7944,7 @@
           "p_over_2_5": 0.3395,
           "p_over_3_5": 0.1538,
           "p_btts": 0.4236,
-          "p_clean_sheet_home": 0.4036,
+          "p_clean_sheet_home": 0.4037,
           "p_clean_sheet_away": 0.3159,
           "expected_goals": 2.06,
           "top_scorelines": [
@@ -8078,7 +8078,7 @@
           "p_home": 0.7144,
           "p_draw": 0.2522,
           "p_away": 0.0334,
-          "p_over_1_5": 0.499,
+          "p_over_1_5": 0.4991,
           "p_over_2_5": 0.2316,
           "p_over_3_5": 0.087,
           "p_btts": 0.1247,
@@ -8092,7 +8092,7 @@
             },
             {
               "score": "2-0",
-              "prob": 0.2117
+              "prob": 0.2118
             },
             {
               "score": "0-0",
@@ -8121,7 +8121,7 @@
           "as_of": "2026-09-21",
           "lambda_home": 1.406,
           "lambda_away": 0.69,
-          "p_home": 0.5281,
+          "p_home": 0.5282,
           "p_draw": 0.3025,
           "p_away": 0.1694,
           "p_over_1_5": 0.6335,
@@ -8167,7 +8167,7 @@
           "as_of": "2026-09-21",
           "lambda_home": 1.063,
           "lambda_away": 0.676,
-          "p_home": 0.4282,
+          "p_home": 0.4283,
           "p_draw": 0.3562,
           "p_away": 0.2156,
           "p_over_1_5": 0.5336,
@@ -8259,7 +8259,7 @@
           "as_of": "2026-09-21",
           "lambda_home": 1.979,
           "lambda_away": 0.684,
-          "p_home": 0.6683,
+          "p_home": 0.6684,
           "p_draw": 0.2235,
           "p_away": 0.1082,
           "p_over_1_5": 0.7557,
@@ -8307,11 +8307,11 @@
           "lambda_away": 0.767,
           "p_home": 0.4057,
           "p_draw": 0.3505,
-          "p_away": 0.2438,
+          "p_away": 0.2437,
           "p_over_1_5": 0.5626,
           "p_over_2_5": 0.2786,
           "p_over_3_5": 0.1143,
-          "p_btts": 0.3668,
+          "p_btts": 0.3667,
           "p_clean_sheet_home": 0.4643,
           "p_clean_sheet_away": 0.344,
           "expected_goals": 1.834,
@@ -8399,7 +8399,7 @@
           "lambda_away": 1.192,
           "p_home": 0.2602,
           "p_draw": 0.3272,
-          "p_away": 0.4126,
+          "p_away": 0.4125,
           "p_over_1_5": 0.6327,
           "p_over_2_5": 0.347,
           "p_over_3_5": 0.159,
@@ -8544,7 +8544,7 @@
           "p_btts": 0.3739,
           "p_clean_sheet_home": 0.5025,
           "p_clean_sheet_away": 0.2774,
-          "expected_goals": 1.971,
+          "expected_goals": 1.97,
           "top_scorelines": [
             {
               "score": "1-0",
@@ -8634,7 +8634,7 @@
           "p_over_2_5": 0.6262,
           "p_over_3_5": 0.404,
           "p_btts": 0.479,
-          "p_clean_sheet_home": 0.0811,
+          "p_clean_sheet_home": 0.0812,
           "p_clean_sheet_away": 0.4878,
           "expected_goals": 3.229,
           "top_scorelines": [
@@ -8905,18 +8905,18 @@
           "lambda_away": 0.418,
           "p_home": 0.6421,
           "p_draw": 0.2704,
-          "p_away": 0.0875,
+          "p_away": 0.0876,
           "p_over_1_5": 0.5912,
           "p_over_2_5": 0.31,
           "p_over_3_5": 0.1341,
           "p_btts": 0.2787,
-          "p_clean_sheet_home": 0.6582,
+          "p_clean_sheet_home": 0.6581,
           "p_clean_sheet_away": 0.216,
           "expected_goals": 1.951,
           "top_scorelines": [
             {
               "score": "1-0",
-              "prob": 0.2072
+              "prob": 0.2071
             },
             {
               "score": "2-0",
@@ -8924,7 +8924,7 @@
             },
             {
               "score": "0-0",
-              "prob": 0.1529
+              "prob": 0.1528
             },
             {
               "score": "1-1",
@@ -8984,7 +8984,7 @@
           "fair_odds": {
             "home": 3.22,
             "draw": 3.89,
-            "away": 2.32
+            "away": 2.31
           }
         },
         {
@@ -9089,13 +9089,13 @@
           "lambda_away": 1.667,
           "p_home": 0.1677,
           "p_draw": 0.2687,
-          "p_away": 0.5636,
+          "p_away": 0.5637,
           "p_over_1_5": 0.7217,
           "p_over_2_5": 0.4508,
           "p_over_3_5": 0.2379,
           "p_btts": 0.4644,
           "p_clean_sheet_home": 0.1889,
-          "p_clean_sheet_away": 0.4438,
+          "p_clean_sheet_away": 0.4439,
           "expected_goals": 2.479,
           "top_scorelines": [
             {
@@ -9112,7 +9112,7 @@
             },
             {
               "score": "0-0",
-              "prob": 0.0971
+              "prob": 0.0972
             },
             {
               "score": "1-2",
@@ -9182,7 +9182,7 @@
           "p_home": 0.0779,
           "p_draw": 0.1401,
           "p_away": 0.782,
-          "p_over_1_5": 0.9079,
+          "p_over_1_5": 0.9078,
           "p_over_2_5": 0.7479,
           "p_over_3_5": 0.5481,
           "p_btts": 0.5777,
@@ -9318,7 +9318,7 @@
           "lambda_home": 1.17,
           "lambda_away": 1.816,
           "p_home": 0.2324,
-          "p_draw": 0.2553,
+          "p_draw": 0.2554,
           "p_away": 0.5123,
           "p_over_1_5": 0.8114,
           "p_over_2_5": 0.5737,
@@ -9363,7 +9363,7 @@
           "as_of": "2026-09-21",
           "lambda_home": 1.466,
           "lambda_away": 1.643,
-          "p_home": 0.3306,
+          "p_home": 0.3305,
           "p_draw": 0.2624,
           "p_away": 0.407,
           "p_over_1_5": 0.8291,
@@ -9501,8 +9501,8 @@
             "relegation_pct": 0.0,
             "position_distribution": [
               0.3591,
-              0.4748,
-              0.1085,
+              0.4749,
+              0.1084,
               0.0353,
               0.0123,
               0.0056,
@@ -9541,11 +9541,11 @@
               0.1896,
               0.1331,
               0.0876,
-              0.0609,
-              0.0523,
+              0.061,
+              0.0522,
               0.0344,
-              0.0267,
-              0.0135,
+              0.0266,
+              0.0136,
               0.0121,
               0.0065,
               0.0035,
@@ -9575,15 +9575,15 @@
               0.1819,
               0.1713,
               0.1389,
-              0.1145,
+              0.1146,
               0.0906,
               0.07,
-              0.0505,
-              0.0424,
+              0.0504,
+              0.0423,
               0.0293,
               0.0185,
               0.0141,
-              0.0085,
+              0.0086,
               0.0041,
               0.0026,
               0.0002,
@@ -9607,17 +9607,17 @@
             "position_distribution": [
               0.0042,
               0.0225,
-              0.1012,
-              0.1267,
+              0.1013,
               0.1266,
-              0.1238,
-              0.1086,
-              0.0895,
-              0.079,
+              0.1266,
+              0.1237,
+              0.1087,
+              0.0897,
+              0.0787,
               0.0636,
-              0.0479,
-              0.0382,
-              0.0309,
+              0.048,
+              0.0381,
+              0.031,
               0.0176,
               0.0103,
               0.0056,
@@ -9634,7 +9634,7 @@
             "proj_points": 58.0,
             "proj_points_p10": 49,
             "proj_points_p90": 67,
-            "avg_finish": 7.66,
+            "avg_finish": 7.65,
             "title_pct": 0.2,
             "top4_pct": 18.6,
             "top6_pct": 42.0,
@@ -9644,17 +9644,17 @@
               0.0132,
               0.0689,
               0.1018,
-              0.1176,
-              0.1168,
-              0.1057,
+              0.1178,
+              0.1167,
+              0.1058,
               0.1032,
-              0.0904,
-              0.074,
+              0.0906,
+              0.0738,
               0.0649,
-              0.0503,
-              0.0364,
-              0.0262,
-              0.0152,
+              0.0502,
+              0.0365,
+              0.0261,
+              0.0151,
               0.0078,
               0.0042,
               0.0013,
@@ -9680,18 +9680,18 @@
               0.0585,
               0.0889,
               0.0957,
-              0.1008,
-              0.1071,
-              0.104,
-              0.0903,
-              0.0797,
+              0.1009,
+              0.1068,
+              0.1043,
+              0.0902,
+              0.08,
               0.0713,
-              0.0629,
+              0.0628,
               0.0454,
-              0.0347,
-              0.025,
-              0.014,
-              0.0061,
+              0.0346,
+              0.0248,
+              0.0142,
+              0.006,
               0.0026,
               0.0003,
               0.0
@@ -9712,20 +9712,20 @@
             "position_distribution": [
               0.0011,
               0.0098,
-              0.0487,
-              0.0782,
-              0.0925,
-              0.1019,
+              0.0486,
+              0.0783,
+              0.0924,
+              0.102,
               0.104,
               0.1021,
               0.1012,
-              0.088,
-              0.0775,
+              0.0879,
+              0.0777,
               0.0644,
-              0.0488,
-              0.0374,
-              0.0245,
-              0.0124,
+              0.0486,
+              0.0375,
+              0.0244,
+              0.0125,
               0.0054,
               0.0016,
               0.0005,
@@ -9749,17 +9749,17 @@
               0.0047,
               0.0344,
               0.0541,
-              0.0704,
-              0.0845,
-              0.0914,
-              0.0917,
-              0.0969,
-              0.0948,
-              0.0905,
+              0.0703,
+              0.0846,
+              0.0915,
+              0.0915,
+              0.0968,
+              0.0951,
+              0.0904,
               0.0798,
               0.0721,
-              0.0561,
-              0.0372,
+              0.056,
+              0.0373,
               0.0226,
               0.013,
               0.0046,
@@ -9774,28 +9774,28 @@
             "proj_points": 54.6,
             "proj_points_p10": 45,
             "proj_points_p90": 64,
-            "avg_finish": 9.34,
+            "avg_finish": 9.35,
             "title_pct": 0.1,
             "top4_pct": 9.3,
-            "top6_pct": 24.7,
+            "top6_pct": 24.6,
             "relegation_pct": 0.6,
             "position_distribution": [
               0.0007,
-              0.0062,
-              0.0303,
+              0.0061,
+              0.0304,
               0.0561,
-              0.0738,
-              0.0795,
+              0.0739,
+              0.0793,
               0.0881,
-              0.0922,
-              0.0961,
-              0.0956,
-              0.0887,
-              0.0802,
+              0.0921,
+              0.0963,
+              0.0955,
+              0.0889,
+              0.0801,
               0.0697,
-              0.0593,
+              0.0594,
               0.0411,
-              0.0239,
+              0.0238,
               0.0121,
               0.0054,
               0.001,
@@ -9820,15 +9820,15 @@
               0.0132,
               0.0282,
               0.0365,
-              0.052,
+              0.0521,
               0.0652,
               0.0767,
-              0.0848,
+              0.0847,
               0.093,
-              0.1075,
-              0.105,
-              0.101,
-              0.0842,
+              0.1073,
+              0.1052,
+              0.1009,
+              0.0843,
               0.0688,
               0.0439,
               0.0257,
@@ -9856,12 +9856,12 @@
               0.0256,
               0.0407,
               0.0472,
-              0.0638,
-              0.0742,
-              0.0833,
+              0.0637,
+              0.074,
+              0.0836,
               0.0936,
-              0.0991,
-              0.105,
+              0.099,
+              0.1051,
               0.102,
               0.0849,
               0.0707,
@@ -9890,18 +9890,18 @@
               0.0083,
               0.0158,
               0.031,
-              0.0426,
-              0.0529,
-              0.0619,
-              0.0759,
-              0.0817,
+              0.0424,
+              0.053,
+              0.0618,
+              0.0762,
+              0.0815,
               0.1017,
               0.1024,
-              0.105,
-              0.1025,
-              0.0877,
+              0.1052,
+              0.1024,
+              0.0876,
               0.0611,
-              0.0439,
+              0.044,
               0.0179,
               0.0064,
               0.0
@@ -9933,11 +9933,11 @@
               0.0825,
               0.1052,
               0.1134,
-              0.1208,
-              0.1118,
+              0.121,
+              0.1117,
               0.0893,
-              0.0669,
-              0.036,
+              0.0667,
+              0.0361,
               0.0111,
               0.0
             ]
@@ -9959,20 +9959,20 @@
               0.0,
               0.0006,
               0.0019,
-              0.0044,
-              0.0086,
-              0.0127,
-              0.0165,
-              0.0302,
-              0.0391,
-              0.0501,
-              0.0654,
+              0.0043,
+              0.0087,
+              0.0126,
+              0.0167,
+              0.0299,
+              0.0393,
+              0.0499,
+              0.0656,
               0.0917,
-              0.1174,
-              0.1398,
-              0.1589,
-              0.1334,
-              0.0913,
+              0.1173,
+              0.14,
+              0.1588,
+              0.1333,
+              0.0914,
               0.0378,
               0.0002
             ]
@@ -10001,11 +10001,11 @@
               0.0167,
               0.0264,
               0.0358,
-              0.0515,
-              0.0707,
-              0.1021,
-              0.1366,
-              0.1706,
+              0.0514,
+              0.0708,
+              0.1019,
+              0.137,
+              0.1704,
               0.1706,
               0.1319,
               0.0636,
@@ -10040,10 +10040,10 @@
               0.0563,
               0.0868,
               0.1235,
-              0.1575,
-              0.1935,
-              0.178,
-              0.0922,
+              0.1574,
+              0.1936,
+              0.1781,
+              0.0921,
               0.0012
             ]
           },
@@ -10072,12 +10072,12 @@
               0.0057,
               0.0097,
               0.0191,
-              0.0296,
-              0.0488,
+              0.0294,
+              0.0489,
               0.0762,
               0.1266,
-              0.1863,
-              0.2754,
+              0.1865,
+              0.2753,
               0.2107,
               0.0046
             ]
@@ -10109,11 +10109,11 @@
               0.0031,
               0.0064,
               0.0092,
-              0.0258,
-              0.0544,
+              0.0257,
+              0.0546,
               0.105,
-              0.2287,
-              0.5428,
+              0.2285,
+              0.5429,
               0.0215
             ]
           },
@@ -10160,243 +10160,243 @@
       "season": "2026-27",
       "as_of": "2026-09-21",
       "params": {
-        "intercept": 0.07678806088314126,
-        "home_adv": 0.3056493357034031,
-        "rho": -0.025708556334863058,
+        "intercept": 0.0767880682503028,
+        "home_adv": 0.3056493349222456,
+        "rho": -0.025708567520704377,
         "max_goals": 10
       },
       "ratings": [
         {
           "team": "Barcelona",
-          "attack": 0.8433900599884723,
-          "defence": -0.3702329228335275,
-          "strength": 1.2136229828219998,
-          "xg_scored_home": 3.406984048109654,
-          "xg_conceded_home": 0.7456903376414289
+          "attack": 0.8433900499211731,
+          "defence": -0.3702329392784319,
+          "strength": 1.2136229891996049,
+          "xg_scored_home": 3.4069840362489368,
+          "xg_conceded_home": 0.7456903308722438
         },
         {
           "team": "Real Madrid",
-          "attack": 0.5768398997581214,
-          "defence": -0.36079552686312644,
-          "strength": 0.9376354266212479,
-          "xg_scored_home": 2.6098096727161586,
-          "xg_conceded_home": 0.7527610245864732
+          "attack": 0.5768398986540724,
+          "defence": -0.36079555494272714,
+          "strength": 0.9376354535967995,
+          "xg_scored_home": 2.6098096870230174,
+          "xg_conceded_home": 0.7527610089949565
         },
         {
           "team": "Ath Madrid",
-          "attack": 0.4083559497456386,
-          "defence": -0.24106199192126726,
-          "strength": 0.6494179416669059,
-          "xg_scored_home": 2.205145176319555,
-          "xg_conceded_home": 0.8485095569381871
+          "attack": 0.4083559267776947,
+          "defence": -0.2410619943168884,
+          "strength": 0.6494179210945832,
+          "xg_scored_home": 2.2051451401949995,
+          "xg_conceded_home": 0.8485095611565866
         },
         {
           "team": "Villarreal",
-          "attack": 0.4381689066625699,
-          "defence": -0.029117061944937503,
-          "strength": 0.46728596860750743,
-          "xg_scored_home": 2.27187686636736,
-          "xg_conceded_home": 1.0488255338406436
+          "attack": 0.4381688833403352,
+          "defence": -0.029117077026955665,
+          "strength": 0.46728596036729086,
+          "xg_scored_home": 2.271876828344705,
+          "xg_conceded_home": 1.048825525749105
         },
         {
           "team": "Betis",
-          "attack": 0.22688614489432807,
-          "defence": -0.20078943276143907,
-          "strength": 0.42767557765576714,
-          "xg_scored_home": 1.8391868442752695,
-          "xg_conceded_home": 0.8833786289939497
+          "attack": 0.2268861611015393,
+          "defence": -0.20078943787354062,
+          "strength": 0.4276755989750799,
+          "xg_scored_home": 1.8391868861962517,
+          "xg_conceded_home": 0.8833786309860215
         },
         {
           "team": "Celta",
-          "attack": 0.09763865315479858,
-          "defence": -0.1458529729186067,
-          "strength": 0.24349162607340527,
-          "xg_scored_home": 1.6161973089066237,
-          "xg_conceded_home": 0.9332660979099211
+          "attack": 0.09763865342507574,
+          "defence": -0.1458529762487076,
+          "strength": 0.24349162967378335,
+          "xg_scored_home": 1.616197319987727,
+          "xg_conceded_home": 0.933266101677573
         },
         {
           "team": "La Coruna",
-          "attack": 0.1280401131842277,
-          "defence": -0.06472838186933835,
-          "strength": 0.19276849505356605,
-          "xg_scored_home": 1.6660865776490466,
-          "xg_conceded_home": 1.012132690144501
+          "attack": 0.12804011400869666,
+          "defence": -0.06472839556371052,
+          "strength": 0.19276850957240718,
+          "xg_scored_home": 1.666086589995536,
+          "xg_conceded_home": 1.0121326837405242
         },
         {
           "team": "Ath Bilbao",
-          "attack": 0.012366881514696115,
-          "defence": -0.151876635145644,
-          "strength": 0.16424351666034012,
-          "xg_scored_home": 1.484093692857922,
-          "xg_conceded_home": 0.9276613157726116
+          "attack": 0.012366880461097282,
+          "defence": -0.15187665641862452,
+          "strength": 0.16424353687972182,
+          "xg_scored_home": 1.4840937010685296,
+          "xg_conceded_home": 0.9276613028727213
         },
         {
           "team": "Alaves",
-          "attack": 0.030023863119169977,
-          "defence": -0.09712442437529302,
-          "strength": 0.127148287494463,
-          "xg_scored_home": 1.5105310227577984,
-          "xg_conceded_home": 0.9798690257018171
+          "attack": 0.0300238722173641,
+          "defence": -0.09712443185343145,
+          "strength": 0.12714830407079555,
+          "xg_scored_home": 1.5105310464492665,
+          "xg_conceded_home": 0.9798690255930743
         },
         {
           "team": "Sociedad",
-          "attack": 0.20728233623678316,
-          "defence": 0.09514080110360267,
-          "strength": 0.1121415351331805,
-          "xg_scored_home": 1.8034828875026705,
-          "xg_conceded_home": 1.1875933471775828
+          "attack": 0.20728234329036316,
+          "defence": 0.09514077800089843,
+          "strength": 0.11214156528946473,
+          "xg_scored_home": 1.803482912101427,
+          "xg_conceded_home": 1.1875933284901572
         },
         {
           "team": "Vallecano",
-          "attack": 0.0038376498342299475,
-          "defence": -0.07337513841068292,
-          "strength": 0.07721278824491287,
-          "xg_scored_home": 1.4714893430373788,
-          "xg_conceded_home": 1.0034187531236598
+          "attack": 0.0038376423250783,
+          "defence": -0.07337514725327471,
+          "strength": 0.07721278957835301,
+          "xg_scored_home": 1.471489341678977,
+          "xg_conceded_home": 1.0034187516431854
         },
         {
           "team": "Sevilla",
-          "attack": 0.03223172541491578,
-          "defence": -0.024201565953487228,
-          "strength": 0.056433291368403006,
-          "xg_scored_home": 1.5138697516200221,
-          "xg_conceded_home": 1.0539937232489391
+          "attack": 0.03223174408405274,
+          "defence": -0.024201565728233343,
+          "strength": 0.05643330981228608,
+          "xg_scored_home": 1.5138697898530167,
+          "xg_conceded_home": 1.0539937312512975
         },
         {
           "team": "Mallorca",
-          "attack": -0.004544145509493669,
-          "defence": -0.04051615597513536,
-          "strength": 0.03597201046564169,
-          "xg_scored_home": 1.4592071657681196,
-          "xg_conceded_home": 1.0369377566281357
+          "attack": -0.004544157747766231,
+          "defence": -0.04051617116520049,
+          "strength": 0.03597201341743426,
+          "xg_scored_home": 1.459207157520289,
+          "xg_conceded_home": 1.0369377485162716
         },
         {
           "team": "Elche",
-          "attack": 0.15586983579117145,
-          "defence": 0.1495267847633295,
-          "strength": 0.006343051027841939,
-          "xg_scored_home": 1.7131045185186742,
-          "xg_conceded_home": 1.2539704102575298
+          "attack": 0.15586983725359288,
+          "defence": 0.14952676339426085,
+          "strength": 0.006343073859332027,
+          "xg_scored_home": 1.7131045323064684,
+          "xg_conceded_home": 1.2539703926995527
         },
         {
           "team": "Levante",
-          "attack": 0.11871177362342358,
-          "defence": 0.11739267539946498,
-          "strength": 0.0013190982239586063,
-          "xg_scored_home": 1.650617021130291,
-          "xg_conceded_home": 1.2143157340359294
+          "attack": 0.11871177320534501,
+          "defence": 0.11739266240964574,
+          "strength": 0.0013191107956992687,
+          "xg_scored_home": 1.6506170313111739,
+          "xg_conceded_home": 1.2143157272082477
         },
         {
           "team": "Girona",
-          "attack": -0.0732497942536235,
-          "defence": -0.06959130009316455,
-          "strength": -0.00365849416045895,
-          "xg_scored_home": 1.3623179205518552,
-          "xg_conceded_home": 1.0072227197089223
+          "attack": -0.07324978035066833,
+          "defence": -0.06959129848147608,
+          "strength": -0.003658481869192251,
+          "xg_scored_home": 1.3623179484643317,
+          "xg_conceded_home": 1.007222728752624
         },
         {
           "team": "Espanol",
-          "attack": -0.02815103538575975,
-          "defence": -0.021196210289871578,
-          "strength": -0.00695482509588817,
-          "xg_scored_home": 1.425163239508402,
-          "xg_conceded_home": 1.0571661139479025
+          "attack": -0.028151021000765233,
+          "defence": -0.021196217156986153,
+          "strength": -0.00695480384377908,
+          "xg_scored_home": 1.4251632693954985,
+          "xg_conceded_home": 1.0571661144765352
         },
         {
           "team": "Valencia",
-          "attack": -0.07105757723638144,
-          "defence": -0.0025223016957864244,
-          "strength": -0.06853527554059502,
-          "xg_scored_home": 1.3653076929978418,
-          "xg_conceded_home": 1.0770930148274818
+          "attack": -0.0710575889495791,
+          "defence": -0.0025223186817539805,
+          "strength": -0.06853527026782512,
+          "xg_scored_home": 1.365307685997645,
+          "xg_conceded_home": 1.0770930044671332
         },
         {
           "team": "Getafe",
-          "attack": -0.466276532446926,
-          "defence": -0.37678565277960924,
-          "strength": -0.08949087966731678,
-          "xg_scored_home": 0.9195791715098987,
-          "xg_conceded_home": 0.7408200046508396
+          "attack": -0.46627650972645035,
+          "defence": -0.37678566239971156,
+          "strength": -0.08949084732673879,
+          "xg_scored_home": 0.9195791984595273,
+          "xg_conceded_home": 0.740820002981816
         },
         {
           "team": "Osasuna",
-          "attack": -0.053346080328202886,
-          "defence": 0.04293730229353837,
-          "strength": -0.09628338262174126,
-          "xg_scored_home": 1.3897047524318413,
-          "xg_conceded_home": 1.1271872419428037
+          "attack": -0.05334607909549434,
+          "defence": 0.04293728189046603,
+          "strength": -0.09628336098596037,
+          "xg_scored_home": 1.3897047632975434,
+          "xg_conceded_home": 1.1271872272488914
         },
         {
           "team": "Leganes",
-          "attack": -0.09983892919069191,
-          "defence": 0.010743293975240393,
-          "strength": -0.1105822231659323,
-          "xg_scored_home": 1.3265723927947797,
-          "xg_conceded_home": 1.0914764869971039
+          "attack": -0.09983892032419449,
+          "defence": 0.010743305599541075,
+          "strength": -0.11058222592373557,
+          "xg_scored_home": 1.3265724132936416,
+          "xg_conceded_home": 1.0914765077258386
         },
         {
           "team": "Almeria",
-          "attack": 0.04933236931406402,
-          "defence": 0.24125854555171042,
-          "strength": -0.1919261762376464,
-          "xg_scored_home": 1.5399805183148356,
-          "xg_conceded_home": 1.3744403174979474
+          "attack": 0.04933233861138575,
+          "defence": 0.2412586747730019,
+          "strength": -0.19192633616161614,
+          "xg_scored_home": 1.5399804811756277,
+          "xg_conceded_home": 1.374440505230637
         },
         {
           "team": "Santander",
-          "attack": 0.3303303630725979,
-          "defence": 0.6154932059339441,
-          "strength": -0.2851628428613462,
-          "xg_scored_home": 2.0396286554804806,
-          "xg_conceded_home": 1.9982689221045145
+          "attack": 0.33033037795889275,
+          "defence": 0.6154932586601364,
+          "strength": -0.2851628807012436,
+          "xg_scored_home": 2.0396286992759975,
+          "xg_conceded_home": 1.9982690421871994
         },
         {
           "team": "Las Palmas",
-          "attack": -0.23391923816951377,
-          "defence": 0.06289726249978018,
-          "strength": -0.29681650066929394,
-          "xg_scored_home": 1.1601138634145018,
-          "xg_conceded_home": 1.1499118915343611
+          "attack": -0.23391924735163216,
+          "defence": 0.06289723996661647,
+          "strength": -0.2968164873182486,
+          "xg_scored_home": 1.1601138604027137,
+          "xg_conceded_home": 1.1499118740947951
         },
         {
           "team": "Cadiz",
-          "attack": -0.5109935378579171,
-          "defence": -0.015529416000397438,
-          "strength": -0.4954641218575197,
-          "xg_scored_home": 0.8793641924088198,
-          "xg_conceded_home": 1.0631738631077565
+          "attack": -0.5109935620508835,
+          "defence": -0.01552933777981344,
+          "strength": -0.49546422427107006,
+          "xg_scored_home": 0.8793641769258878,
+          "xg_conceded_home": 1.0631739541024146
         },
         {
           "team": "Oviedo",
-          "attack": -0.4949567293598963,
-          "defence": 0.046083639248030564,
-          "strength": -0.5410403686079269,
-          "xg_scored_home": 0.8935800715605288,
-          "xg_conceded_home": 1.1307393379318869
+          "attack": -0.49495675269906664,
+          "defence": 0.04608363482503548,
+          "strength": -0.5410403875241021,
+          "xg_scored_home": 0.8935800565902333,
+          "xg_conceded_home": 1.1307393412609716
         },
         {
           "team": "Granada",
-          "attack": -0.20780944410651464,
-          "defence": 0.3554595578796903,
-          "strength": -0.563269001986205,
-          "xg_scored_home": 1.1908030988473377,
-          "xg_conceded_home": 1.5407165782634509
+          "attack": -0.2078093832388303,
+          "defence": 0.3554595373654219,
+          "strength": -0.5632689206042523,
+          "xg_scored_home": 1.1908031791714015,
+          "xg_conceded_home": 1.5407165580074855
         },
         {
           "team": "Malaga",
-          "attack": -0.9190496361208323,
-          "defence": 0.05015897778815905,
-          "strength": -0.9692086139089914,
-          "xg_scored_home": 0.5847258117221769,
-          "xg_conceded_home": 1.1353568861799352
+          "attack": -0.9190496445641763,
+          "defence": 0.05015899574239126,
+          "strength": -0.9692086403065675,
+          "xg_scored_home": 0.5847258106361423,
+          "xg_conceded_home": 1.1353569149287543
         },
         {
           "team": "Valladolid",
-          "attack": -0.4961138453434545,
-          "defence": 0.498205045394824,
-          "strength": -0.9943188907382785,
-          "xg_scored_home": 0.8925466937614218,
-          "xg_conceded_home": 1.777118275912394
+          "attack": -0.496113849536252,
+          "defence": 0.49820504954205197,
+          "strength": -0.994318899078304,
+          "xg_scored_home": 0.8925466958974704,
+          "xg_conceded_home": 1.777118296374826
         }
       ],
       "fixtures": [
