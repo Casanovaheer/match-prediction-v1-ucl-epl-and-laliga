@@ -1,6 +1,6 @@
 # Match Predictions — UCL, Premier League and La Liga
 
-*Generated 2026-11-13 13:51 UTC · data through 2026-11-08*
+*Generated 2026-11-20 14:50 UTC · data through 2026-11-08*
 
 Every number below comes from a time-weighted Dixon-Coles model fitted only on matches played before the prediction date. Method and measured accuracy are in the [README](https://github.com/Casanovaheer/match-prediction-v1-ucl-epl-and-laliga).
 
@@ -20,7 +20,7 @@ Every number below comes from a time-weighted Dixon-Coles model fitted only on m
 | Brentford | +0.224 | -0.160 | +0.384 | 1.87 | 1.03 |
 | Bournemouth | +0.222 | -0.143 | +0.365 | 1.86 | 1.05 |
 | Chelsea | +0.297 | -0.032 | +0.329 | 2.00 | 1.17 |
-| Aston Villa | +0.255 | -0.039 | +0.294 | 1.92 | 1.16 |
+| Aston Villa | +0.255 | -0.039 | +0.293 | 1.92 | 1.16 |
 | Manchester United | +0.261 | +0.012 | +0.249 | 1.93 | 1.22 |
 | Leeds | -0.044 | -0.280 | +0.236 | 1.43 | 0.91 |
 | Everton | -0.042 | -0.219 | +0.177 | 1.43 | 0.97 |
@@ -30,7 +30,7 @@ Every number below comes from a time-weighted Dixon-Coles model fitted only on m
 
 | # | Club | Pl | Pts | Proj | Title | Top 4 | Relegation |
 |---:|---|---:|---:|---:|---:|---:|---:|
-| 1 | Arsenal | 10 | 27 | 85.6 | 81.2% | 99.9% | 0.0% |
+| 1 | Arsenal | 10 | 27 | 85.6 | 81.1% | 99.9% | 0.0% |
 | 2 | Brighton | 10 | 22 | 74.5 | 9.7% | 94.8% | 0.0% |
 | 3 | Manchester City | 10 | 21 | 73.4 | 8.2% | 91.6% | 0.0% |
 | 4 | Liverpool | 10 | 18 | 65.4 | 0.9% | 58.4% | 0.0% |
@@ -48,7 +48,7 @@ Every number below comes from a time-weighted Dixon-Coles model fitted only on m
 | 16 | Fulham | 10 | 10 | 42.5 | 0.0% | 0.1% | 16.9% |
 | 17 | Sunderland | 10 | 8 | 38.0 | 0.0% | 0.0% | 42.6% |
 | 18 | Ipswich | 10 | 11 | 36.9 | 0.0% | 0.0% | 51.7% |
-| 19 | Coventry | 10 | 9 | 34.0 | 0.0% | 0.0% | 69.7% |
+| 19 | Coventry | 10 | 9 | 34.0 | 0.0% | 0.0% | 69.6% |
 | 20 | Crystal Palace | 10 | 7 | 33.1 | 0.0% | 0.0% | 74.9% |
 
 ### Upcoming fixtures (200 unplayed)
@@ -94,7 +94,7 @@ Every number below comes from a time-weighted Dixon-Coles model fitted only on m
 | Brighton v Nottingham Forest | 60.6% | 23.4% | 16.1% | 50.2% | 48.4% | 1-0 |
 | Liverpool v Tottenham | 59.7% | 23.0% | 17.3% | 53.7% | 51.9% | 1-1 |
 | Brighton v Chelsea | 59.4% | 21.4% | 19.1% | 63.2% | 60.2% | 2-1 |
-| Brighton v Everton | 59.4% | 24.3% | 16.3% | 47.4% | 46.5% | 1-0 |
+| Brighton v Everton | 59.4% | 24.3% | 16.4% | 47.4% | 46.5% | 1-0 |
 
 ## La Liga 2026-27
 
